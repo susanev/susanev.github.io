@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>susan.</title>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css' />
+        <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic' rel='stylesheet' type='text/css'>
+        <link type='text/css' rel='stylesheet' href="css/reset.css" />
+        <link type='text/css' rel='stylesheet' href="css/styles.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+        <script type="text/javascript" src="js/basic.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><div class="name">
+                <p>Susan Evans</p>
+            </div></a>
+            
+            <div class="hamburger" onclick="showNav()">
+                <div id="line1" class="no-rotate"></div>
+                <div id="line2" class="no-rotate"></div>
+                <div id="line3" class="no-rotate"></div>
+            </div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="resume.html">R&eacute;sum&eacute;</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="last"><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="clear"></div>
+
+        <article class="contact">
+            <h1>Contact</h1>
+            <p>I am currently available for hire as a UX Designer + Developer.<br/>Please reach out to me using the contact form below.</p>
+            <form method="post" action="php/index.php">
+                <label>Name<span class="error">*</span></label>
+                <input name="name" placeholder="Type Here">
+
+                <label>Email<span class="error">*</span></label>
+                <input name="email" type="email" placeholder="Type Here">
+
+                <label>Message<span class="error">*</span></label>
+                <textarea name="message" placeholder="Type Here"></textarea>
+
+                <input id="submit" name="submit" type="submit" class="button" value="Submit">    
+            </form>
+        </article>
+
+        <div class="clear"></div>
+
+        <footer>
+            <div class="half">
+                <p>This is the online portfolio of Susan Evans&mdash;a Full-stack Designer, and Computer Science educator.</p>
+                <a href="http://twitter.com/susanrevans"><img src="" /></a>
+                <p class="copyright">&copy; Copyright Susan Evans. All rights reserved.</p>
+            </div>
+
+            <div class="half-last">
+                <ul class="footer-nav">
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

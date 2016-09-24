@@ -1,0 +1,703 @@
+/*#ff69b4*/
+
+/* document styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid #00BCD4;
+    outline: none;
+    color: #00BCD4;
+}
+
+/* font styles */
+nav a, h1, h2, h3, h4, h5, label, .about p, .name p {
+    color: #212121;
+}
+
+nav a, h1, h2, h3, h4, h5, label, .about p, .about a, .name p {
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+input, p, li {
+    color: #212121;
+}
+
+input, p, a, li {
+    font-family: "Crimson+Text", Arial, sans-serif;
+}
+
+.about-1 {
+    font-size: 120px;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.about-2 {
+    font-size: 45px;
+    margin-top: 30px;
+    width: 40%;
+    line-height: 55px;
+}
+
+.about-3 {
+    font-size: 45px;
+    margin-top: 30px;
+    line-height: 55px;
+    width: 40%;
+}
+
+.about-3 a {
+    border-bottom: 5px solid #00BCD4;
+}
+
+/* headings */
+h1 {
+    font-size: 48px; 
+}
+
+h2 {
+    font-size: 36px;
+    margin: 20px 0 5px 0;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+.projects h3 {
+    text-transform: none;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+/*
+.breadcrumb {
+    margin: 17px 0 0 50px;
+    font-size: 18px;
+}
+*/
+
+/*
+.project-page {
+    margin-top: 8px;
+}
+*/
+.project-page h2 {
+    margin-top: 0;
+}
+
+.project-page h3 {
+    margin-top: 9px;
+}
+.project-page img {
+    width: 100%;
+    margin:0 0 30px 0;
+}
+
+.project-page li {
+    margin-bottom: 8px;
+}
+
+.project-page ul {
+    margin-bottom: 35px;
+}
+
+/* layout hack */
+.clear {
+    clear: both;
+}
+
+/* framework styles */
+article {
+    width: 1130px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-top: 20px solid #00BCD4;
+}
+
+header {
+    background-color: #fff;
+    height: 105px;
+    padding-top: 20px;
+}
+
+.half, .half-last {
+    width: 50%;
+}
+
+.half {
+    float: left;
+}
+
+.half-last {
+    float: right;
+}
+
+.two-thirds {
+    width: 56%;
+    float: left;
+    margin-right: 10%;
+}
+
+.one-third {
+    width: 33%;
+    float: right;
+}
+.project-page img.png {
+    width: 50%;
+}
+.safer-conception-page {
+    height: 1450px;
+}
+
+.art-guide-page {
+    height: 1000px;
+}
+
+.heart-page {
+    height: 1000px;
+}
+
+.pscsta-page {
+    height: 1200px;
+}
+
+.liy-page {
+    height: 850px;
+}
+
+.ubi-page {
+    height: 1100px;
+}
+.project-page p, .project-page li {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.project-page p {
+    margin: 10px 0 20px 0;
+}
+
+/* nav styles */
+nav {
+    float: right;
+    font-size: 24px;
+    line-height: 48px;
+    margin-right: 50px;
+}
+nav ul li {
+    list-style-type: none;
+    float: left;
+    margin: 15px;
+}
+
+nav ul li.last {
+    margin-right: 0;
+}
+
+nav a {
+    border-bottom: none;
+    color: #00BCD4;
+}
+
+nav a.active {
+    border-bottom: 5px solid #00BCD4;
+}
+
+nav a:hover {
+    border-bottom: 5px solid #00BCD4;
+}
+
+/* footer styles */
+footer {
+    background-color: #222;
+    height: 225px;
+    padding: 40px;
+}
+
+.footer-nav {
+    float: right;
+    margin-right: 40px;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+footer p, footer a {
+    color: #ddd;  
+}
+
+footer a {
+    border-bottom: 1px solid #ddd;
+}
+
+footer a:hover {
+    border-bottom: 5px solid #ddd;
+}
+
+footer p {
+    background-color: none;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+/* button styles */
+.button {
+    margin: 20px 0 20px 0;
+    padding: 20px 30px;
+    background-color: #00BCD4;;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 240px;
+    height: 60px;
+}
+
+/* resume styles */
+.resume {
+    height: 1200px;
+}
+.resume-left, .resume-right {
+    width: 45%;
+}
+.resume-left {
+    margin-right: 5%;
+}
+
+.resume-right {
+    margin-left: 5%;
+}
+
+.skills li {
+    margin-bottom: 7px;
+}
+
+.skills ul {
+    margin-bottom: 20px;
+}
+
+
+.skills, .awards {
+    margin-bottom: 40px;
+}
+
+.awards p {
+    margin-bottom: 40px;
+}
+
+.resume p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.work-exp {
+    margin-bottom: 20px;
+}
+
+.intro-block {
+    margin: 60px 0;
+}
+
+/* about styles */
+.about {
+    background-image: url('../imgs/me.jpg');
+    background-size: cover;
+    height: 1200px;
+    
+}
+
+/* project styles */
+.project {
+    width: 31%;
+    height: 340px;
+    float: left;
+    margin: 30px 30px 0 0;
+    background-color: #fafafa;
+    box-shadow: 0 3px 3px #ccc
+/*    box-shadow: 1px 1px 2px #d3d3d3;*/
+}
+
+.project:hover {
+    -webkit-transition: transform 0.1s ease-in-out;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -o-transform: scale(1.03); 
+    -moz-transform: scale(1.03);
+}
+
+.project-img {  
+    height: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.logo {
+    background-size: 60%;
+}
+
+.png {
+    background-size: 80%;
+}
+
+.ubi {
+    background-image: url('../imgs/project-imgs/ubi/ubi.svg'); 
+}
+
+.liy {
+    background-image: url('../imgs/project-imgs/liy/liy.svg'); 
+}
+
+.art-guide {
+    background-image: url('../imgs/project-imgs/art-guide/art-guide.png'); 
+}
+
+.safer-conception {
+    background-image: url('../imgs/project-imgs/safer-conception/safer-conception.png')
+}
+
+.pscsta {
+    background-image: url('../imgs/project-imgs/pscsta/pscsta.png')
+}
+
+.heart {
+    background-image: url('../imgs/project-imgs/heart/heart.png')
+}
+
+.project-info {
+    padding: 15px;
+    background-color: #b1b1b1;
+    color: #303030;
+}
+
+.projects {
+    margin: 20px 0;
+}
+
+.project-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 13.5px;
+}
+
+.projects a {
+    color: #000;
+}
+
+/* hamburger menu styles */
+.hamburger {
+    display: none;
+    width: 30px;
+    float: right;
+    margin: 30px 30px 0 0;
+}
+
+#line1, #line2, #line3 {
+    border-bottom: 5px solid #000;
+    border-radius: 4px;
+    margin-bottom: 5px;    
+}
+
+.line1-rotate, .line2-rotate, .line3-rotate, .no-rotate {
+    -webkit-transition: transform 0.2s ease-in-out;
+}
+
+.no-rotate {
+    transform: rotate(0deg) translate(0, 0) scale(1, 1);
+    opacity: 1;
+}
+
+.line1-rotate {
+    transform: rotate(45deg) translate(4px, 11px);
+}
+
+.line2-rotate {
+    transform: scale(0.2, 0.2);
+    opacity: 0;
+}
+
+.line3-rotate {
+    transform: rotate(-45deg) translate(3px, -10px);
+}
+
+/* form styles */
+form {
+    width: 459px;
+}
+
+input, textarea {
+    width:539px;
+	height:42px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+    margin: 10px 0 25px 0;
+	font-size:18px;
+	color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+textarea {
+    height: 213px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    margin-top:20px;
+    cursor:pointer;
+    border: none;
+    height: 60px;
+    width: 180px;
+}
+
+#submit:hover {
+    opacity:.9;
+}
+
+label {
+    font-size: 20px;
+}
+
+.about {
+/*    background-image: url('../imgs/me.jpg');*/
+/*    background-size: 150%;*/
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 20px 0 30px 0;
+    line-height: 24px;
+}
+
+.name {
+    float: left;
+    padding-left: 40px;
+}
+
+.name p {
+    text-transform: uppercase;
+    color: #00BCD4;
+    font-size: 64px;
+}
+
+.tres-last {
+    margin-right: 0;
+}
+
+.error {
+    color: #ff0000;
+}
+
+
+/* media queries */
+@media screen and (max-width: 1209px) {
+    article {
+        margin: 7%;
+        width: 85%;
+    }
+    
+    .project {
+        width: 48%;
+    }
+    
+    .projects {
+/*        margin: 0 5%;*/
+    }
+    
+    .tres-last {
+        margin-right: 30px;
+    }
+    .duo-last {
+        margin-right: 0;
+    }
+    
+    #mainNav {
+        display: block;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+    
+    .logo {
+        width: 95%;
+    }
+    
+    #mainNav ul {
+        padding-top: 20px;
+    }
+    
+    nav {
+        line-height: 7px;
+    }
+    
+    .name p{
+        font-size: 50px;
+        padding-top: 10px;
+    }
+    
+    .about {
+        height: 1400px;
+    }
+}
+
+@media screen and (max-width: 973px) {  
+    article {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .project  {
+        width: 100%;
+        margin-top: 60px;
+    }
+    
+    .logo {
+        background-size: 25%;
+    }
+
+    .png {
+        background-size: 40%;
+    }
+    
+    .projects {
+        margin: 0;
+    }
+    
+    #mainNav {
+        width: 100%;
+        margin: 0;
+        display: none;
+    }
+    
+    .hamburger {
+        display: inline;
+    }
+    
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    article .half, article .half-last {
+        width: 90%;
+        float: none;
+    }
+    
+    .resume-left, .resume-right {
+        margin: 0;
+        float: none;
+        width: 90%;
+        margin: 0 5%;
+    }
+    
+    .name {
+        padding-top: 0;
+    }
+    
+    .name p {
+        width: 100px;
+        font-size: 34px;
+    }
+    
+    .about {
+        height: 1600px;
+    }
+}
+
+@media screen and (max-width: 765px) {  
+    .about {
+        background-image: url('../imgs/background.jpg');
+        height: 1000px;
+    }
+    
+    article h1 {
+        display: inline;
+        padding: 0;
+    }
+    
+    article {
+        width: 100%;
+        padding: 40px 40px;
+    }
+
+    
+    .logo {
+        background-size: 40%;
+    }
+
+    .png {
+        background-size: 60%;
+    }
+    
+    .project {
+        margin-right: 0;
+    }
+    
+    footer {
+        height: 275px;
+    }
+    
+    .about-1, .about-2, .about-3 {
+        width: 100%;
+    }
+    
+    .about-2, .about-3 {
+        font-size: 39px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .logo {
+        background-size: 60%;
+    }
+    
+    .png {
+        background-size: 80%;
+    }
+    
+    .about {
+        height: 1200px;
+    }
+    
+    .about-1 {
+        font-size: 100px;
+    }
+}
