@@ -104,6 +104,10 @@ h4 {
     margin-top: 8px;
 }
 */
+
+#mainNav {
+    margin-top: 4px;
+}
 .project-page h2 {
     margin-top: 0;
 }
@@ -140,7 +144,7 @@ article {
 
 header {
     background-color: #fff;
-    height: 105px;
+    height: 135px;
     padding-top: 20px;
 }
 
@@ -547,6 +551,7 @@ label {
 .name {
     float: left;
     padding-left: 40px;
+    margin-top: 14px;
 }
 
 .name p {
