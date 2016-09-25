@@ -444,6 +444,11 @@ footer p {
     background-size: 75%;
 }
 
+.shelter {
+    background-image: url('../imgs/project-imgs/shelter/shelter.jpg');
+    background-size: 75%;
+}
+
 .project-info {
     padding: 15px;
     background-color: #b1b1b1;
