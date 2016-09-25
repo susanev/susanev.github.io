@@ -209,6 +209,10 @@ header {
     margin: 10px 0 20px 0;
 }
 
+.msg-sent {
+    display: none;
+}
+
 /* nav styles */
 nav {
     float: right;
