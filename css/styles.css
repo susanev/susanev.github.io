@@ -82,7 +82,14 @@ h2, h3 {
 
 h4 {
     font-size: 18px;
+}
+
+.resume h4 {
     margin-bottom: 7px;
+}
+
+.work-type h4, .education h4  {
+    margin-bottom: 4px;
 }
 
 /*
@@ -284,7 +291,7 @@ footer p {
 
 /* resume styles */
 .resume {
-    height: 1200px;
+    height: 1285px;
 }
 .resume-left, .resume-right {
     width: 45%;
@@ -319,12 +326,20 @@ footer p {
     line-height: 18px;
 }
 
-.work-exp {
+.work-exp, .education {
+    margin-bottom: 60px;
+}
+
+.work-type, .ed-type {
     margin-bottom: 20px;
 }
 
+.work-type p, .education p{
+    margin-bottom: 3px;
+}
+
 .intro-block {
-    margin: 60px 0;
+    margin: 135px 0;
 }
 
 /* about styles */
@@ -523,6 +538,10 @@ label {
 
 .error {
     color: #ff0000;
+}
+
+.resume-p {
+    margin-bottom: 10px;
 }
 
 
