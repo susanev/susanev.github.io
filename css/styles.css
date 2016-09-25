@@ -186,7 +186,7 @@ header {
 }
 
 .incloodle-page {
-    height: 1300px;
+    height: 2000px;
 }
 
 .pscsta-page {
@@ -638,6 +638,12 @@ label {
 
 .five-labels {
     margin: 0px 225px;
+}
+
+ul.include-bullets {
+    list-style-type: circle;
+    list-style: inside;
+    padding-left: 20px;
 }
 
 .four-labels {
