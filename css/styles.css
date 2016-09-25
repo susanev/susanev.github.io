@@ -291,7 +291,7 @@ footer p {
 
 /* resume styles */
 .resume {
-    height: 1285px;
+    height: 1215px;
 }
 .resume-left, .resume-right {
     width: 45%;
@@ -334,12 +334,16 @@ footer p {
     margin-bottom: 20px;
 }
 
+.ed-type p {
+    font-size: 16px;
+}
+
 .work-type p, .education p{
     margin-bottom: 3px;
 }
 
 .intro-block {
-    margin: 135px 0;
+    margin: 100px 0;
 }
 
 .social-media {
