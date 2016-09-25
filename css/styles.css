@@ -598,10 +598,17 @@ label {
 #css3-slider {
     margin:40px auto;
     margin-bottom: 65px;
-    padding:0px 0px;
     width:588px;
-    height:356px;
+    padding:0px 0px;
     position:relative;
+}
+
+.tablet, .slides {
+    height:356px;
+}
+
+.ipad {
+    height: 415px;
 }
 
 #css3-slider li {
@@ -631,6 +638,10 @@ label {
 
 .five-labels {
     margin: 0px 225px;
+}
+
+.four-labels {
+    margin: 0px 230px;
 }
 
 #css3-slider li:nth-child(2) label {left:38px;}
@@ -670,18 +681,31 @@ label {
 /* Show the image with transition */
 #css3-slider li input:checked ~ img,
 #css3-slider li input:checked ~ a img {
-  top:0%;
-  left:0%;
-  width:588px;
-  height:356px;
-  visibility:visible;
-  -webkit-transform:rotate(0deg) scale(1);
-  -moz-transform:rotate(0deg) scale(1);
-  -ms-transform:rotate(0deg) scale(1);
-  -o-transform:rotate(0deg) scale(1);
-  transform:rotate(0deg) scale(1);
-  opacity:1;
-  z-index:99;
+    top:0%;
+    left:0%;
+    width:588px;
+/*    height:356px;*/
+    visibility:visible;
+    -webkit-transform:rotate(0deg) scale(1);
+    -moz-transform:rotate(0deg) scale(1);
+    -ms-transform:rotate(0deg) scale(1);
+    -o-transform:rotate(0deg) scale(1);
+    transform:rotate(0deg) scale(1);
+    opacity:1;
+    z-index:99;
+}
+
+#css3-slider.tablet li input:checked ~ img,
+#css3-slider.tablet li input:checked ~ a img,
+#css3-slider.slides li input:checked ~ img,
+#css3-slider.slides li input:checked ~ a img {
+    height:356px;
+}
+
+
+#css3-slider.ipad li input:checked ~ img,
+#css3-slider.ipad li input:checked ~ a img {
+    height: 415px;
 }
 
 /* Hide the radio */
