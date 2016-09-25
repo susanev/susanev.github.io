@@ -174,7 +174,7 @@ header {
     width: 50%;
 }
 .safer-conception-page {
-    height: 1450px;
+    height: 1560px;
 }
 
 .art-guide-page {
@@ -593,7 +593,7 @@ label {
 /* slideshow */
 #css3-slider {
     margin:40px auto;
-    margin-bottom: 55px;
+    margin-bottom: 65px;
     padding:0px 0px;
     width:588px;
     height:356px;
@@ -613,13 +613,16 @@ label {
   left:10px;
   z-index:999;
   background-color:#CCCCCC;
-  margin: 0px 225px;
   padding:0px 0px;
   width:18px;
   height:18px;
   text-align:center;
   cursor:pointer;
   border-radius: 16px;
+}
+
+.six {
+   margin: 0px 210px; 
 }
 
 #css3-slider li:nth-child(2) label {left:38px;}
