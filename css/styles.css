@@ -185,6 +185,10 @@ header {
     height: 1000px;
 }
 
+.incloodle-page {
+    height: 1300px;
+}
+
 .pscsta-page {
     height: 1200px;
 }
@@ -424,15 +428,20 @@ footer p {
 }
 
 .safer-conception {
-    background-image: url('../imgs/project-imgs/safer-conception/safer-conception.png')
+    background-image: url('../imgs/project-imgs/safer-conception/safer-conception.png');
 }
 
 .pscsta {
-    background-image: url('../imgs/project-imgs/pscsta/pscsta.png')
+    background-image: url('../imgs/project-imgs/pscsta/pscsta.png');
 }
 
 .heart {
-    background-image: url('../imgs/project-imgs/heart/heart.png')
+    background-image: url('../imgs/project-imgs/heart/heart.png');
+}
+
+.incloodle {
+    background-image: url('../imgs/project-imgs/incloodle/incloodle.png');
+    background-size: 75%;
 }
 
 .project-info {
