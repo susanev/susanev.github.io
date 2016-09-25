@@ -590,6 +590,94 @@ label {
     margin-bottom: 10px;
 }
 
+/* slideshow */
+#css3-slider {
+    margin:40px auto;
+    margin-bottom: 55px;
+    padding:0px 0px;
+    width:588px;
+    height:356px;
+    position:relative;
+}
+
+#css3-slider li {
+  list-style:none;
+  margin:0px 0px;
+  padding:0px 0px;
+}
+
+/* Navigation */
+#css3-slider li input + label {
+  position:absolute;
+  bottom:-32px;
+  left:10px;
+  z-index:999;
+  background-color:#CCCCCC;
+  margin: 0px 225px;
+  padding:0px 0px;
+  width:18px;
+  height:18px;
+  text-align:center;
+  cursor:pointer;
+  border-radius: 16px;
+}
+
+#css3-slider li:nth-child(2) label {left:38px;}
+#css3-slider li:nth-child(3) label {left:66px;}
+#css3-slider li:nth-child(4) label {left:94px;}
+#css3-slider li:nth-child(5) label {left:122px;}
+#css3-slider li:nth-child(6) label {left:150px;}
+
+/* Images */
+#css3-slider li img {
+  border:none;
+  outline:none;
+  position:absolute;
+  top:50%;
+  left:50%;
+  width:0px;
+  height:0px;
+  visibility:hidden;
+  opacity:0;
+/*   -webkit-transition:all 2s ease-in-out;
+  -moz-transition:all 2s ease-in-out;
+  -ms-transition:all 2s ease-in-out;
+  -o-transition:all 2s ease-in-out;
+  transition:all 2s ease-in-out; */
+  -webkit-transform:rotate(0deg) scale(1);
+  -moz-transform:rotate(0deg) scale(1);
+  -ms-transform:rotate(0deg) scale(1);
+  -o-transform:rotate(0deg) scale(1);
+  transform:rotate(0deg) scale(1);
+}
+
+/* Active navigation */
+#css3-slider li input:checked + label {
+  background-color:#777777;
+}
+
+/* Show the image with transition */
+#css3-slider li input:checked ~ img,
+#css3-slider li input:checked ~ a img {
+  top:0%;
+  left:0%;
+  width:588px;
+  height:356px;
+  visibility:visible;
+  -webkit-transform:rotate(0deg) scale(1);
+  -moz-transform:rotate(0deg) scale(1);
+  -ms-transform:rotate(0deg) scale(1);
+  -o-transform:rotate(0deg) scale(1);
+  transform:rotate(0deg) scale(1);
+  opacity:1;
+  z-index:99;
+}
+
+/* Hide the radio */
+#css3-slider input {
+  display:none;
+}
+
 
 /* media queries */
 @media screen and (max-width: 1209px) {
