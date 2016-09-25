@@ -320,6 +320,10 @@ footer p {
     margin-bottom: 20px;
 }
 
+.resume p {
+    max-width: 430px
+}
+
 
 .skills, .awards {
     margin-bottom: 40px;
