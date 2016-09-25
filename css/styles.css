@@ -342,6 +342,25 @@ footer p {
     margin: 135px 0;
 }
 
+.social-media {
+    margin-top: 15px;
+}
+
+.social-media a {
+    padding-right: 3px;
+    border-bottom: none;
+    fill: #333;
+}
+
+.social-media a:hover {
+    border-bottom: none;
+}
+
+
+.social-icon {
+    width: 45px;
+}
+
 /* about styles */
 .about {
     background-image: url('../imgs/me.jpg');
@@ -691,7 +710,7 @@ label {
     }
     
     footer {
-        height: 275px;
+        height: 320px;
     }
     
     .about-1, .about-2, .about-3 {
