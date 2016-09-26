@@ -194,7 +194,7 @@ header {
 }
 
 .pscsta-page {
-    height: 1350px;
+    height: 1450px;
 }
 
 .liy-page {
@@ -631,6 +631,10 @@ label {
     height: 444px;
 }
 
+.laptop {
+    height: 338px;
+}
+
 #css3-slider li {
   list-style:none;
   margin:0px 0px;
@@ -742,6 +746,11 @@ ul.include-bullets {
 #css3-slider.shelter li input:checked ~ img,
 #css3-slider.shelter li input:checked ~ a img {
     height: 444px;
+}
+
+#css3-slider.laptop li input:checked ~ img,
+#css3-slider.laptop li input:checked ~ a img {
+    height: 338px;
 }
 
 /* Hide the radio */
