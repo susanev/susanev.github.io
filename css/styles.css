@@ -202,7 +202,7 @@ header {
 }
 
 .ride-page {
-    height: 1400px;
+    height: 1750px;
 }
 .project-page p, .project-page li {
     font-size: 18px;
@@ -451,6 +451,10 @@ footer p {
     background-image: url('../imgs/project-imgs/heart/heart.png');
 }
 
+.ride-img {
+    background-image: url('../imgs/project-imgs/ride/ride-website.png');
+}
+
 .incloodle {
     background-image: url('../imgs/project-imgs/incloodle/incloodle.png');
     background-size: 75%;
@@ -615,6 +619,10 @@ label {
     height: 415px;
 }
 
+.ride {
+    height: 350px;
+}
+
 #css3-slider li {
   list-style:none;
   margin:0px 0px;
@@ -636,7 +644,7 @@ label {
   border-radius: 16px;
 }
 
-.six {
+.six-labels {
    margin: 0px 210px; 
 }
 
@@ -716,6 +724,11 @@ ul.include-bullets {
 #css3-slider.ipad li input:checked ~ img,
 #css3-slider.ipad li input:checked ~ a img {
     height: 415px;
+}
+
+#css3-slider.ride li input:checked ~ img,
+#css3-slider.ride li input:checked ~ a img {
+    height: 350px;
 }
 
 /* Hide the radio */
