@@ -177,6 +177,10 @@ header {
     height: 1560px;
 }
 
+.shelter-page {
+    height: 1950px;
+}
+
 .art-guide-page {
     height: 1000px;
 }
@@ -460,7 +464,7 @@ footer p {
     background-size: 75%;
 }
 
-.shelter {
+.shelter-img {
     background-image: url('../imgs/project-imgs/shelter/shelter.jpg');
     background-size: 75%;
 }
@@ -623,6 +627,10 @@ label {
     height: 350px;
 }
 
+.shelter {
+    height: 444px;
+}
+
 #css3-slider li {
   list-style:none;
   margin:0px 0px;
@@ -729,6 +737,11 @@ ul.include-bullets {
 #css3-slider.ride li input:checked ~ img,
 #css3-slider.ride li input:checked ~ a img {
     height: 350px;
+}
+
+#css3-slider.shelter li input:checked ~ img,
+#css3-slider.shelter li input:checked ~ a img {
+    height: 444px;
 }
 
 /* Hide the radio */
