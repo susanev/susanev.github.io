@@ -656,6 +656,11 @@ label {
   border-radius: 16px;
 }
 
+.seven-labels {
+    margin: 0px 205px; 
+}
+
+
 .six-labels {
    margin: 0px 210px; 
 }
@@ -679,6 +684,7 @@ ul.include-bullets {
 #css3-slider li:nth-child(4) label {left:94px;}
 #css3-slider li:nth-child(5) label {left:122px;}
 #css3-slider li:nth-child(6) label {left:150px;}
+#css3-slider li:nth-child(7) label {left:178px;}
 
 /* Images */
 #css3-slider li img {
