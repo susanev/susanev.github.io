@@ -190,15 +190,19 @@ header {
 }
 
 .pscsta-page {
-    height: 1200px;
+    height: 1350px;
 }
 
 .liy-page {
-    height: 850px;
+    height: 950px;
 }
 
 .ubi-page {
     height: 1600px;
+}
+
+.ride-page {
+    height: 1400px;
 }
 .project-page p, .project-page li {
     font-size: 18px;
