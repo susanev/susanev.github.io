@@ -311,7 +311,7 @@ footer p {
 
 /* resume styles */
 .resume {
-    height: 1215px;
+    height: 1350px;
 }
 .resume-left, .resume-right {
     width: 45%;
@@ -815,6 +815,10 @@ ul.include-bullets {
     .about {
         height: 1400px;
     }
+    
+    .resume {
+        height: 2450px;
+    }
 }
 
 @media screen and (max-width: 973px) {  
@@ -938,5 +942,9 @@ ul.include-bullets {
     
     .about-1 {
         font-size: 100px;
+    }
+    
+    .resume {
+        height: 2700px;
     }
 }
