@@ -927,6 +927,16 @@ ul.include-bullets {
     }
 }
 
+@media screen and (max-width: 585px){
+    input, textarea {
+        width:100%;
+    }
+    
+    form {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 460px) {
     .logo {
         background-size: 60%;
