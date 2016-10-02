@@ -16,6 +16,19 @@ a {
     color: #00BCD4;
 }
 
+article {
+    width: 1130px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-top: 20px solid #00BCD4;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0 30px 0;
+}
+
 /* font styles */
 nav a, h1, h2, h3, h4, h5, label, .about p, .name p {
     color: #212121;
@@ -33,6 +46,7 @@ input, p, a, li {
     font-family: "Crimson+Text", Arial, sans-serif;
 }
 
+/* clearfix styles */
 .clearfix:before,
 .clearfix:after {
     content: "";
@@ -43,28 +57,9 @@ input, p, a, li {
     clear: both;
 }
 
-.about-1 {
-    font-size: 120px;
-    margin-top: 30px;
-    width: 50%;
-}
-
-.about-2 {
-    font-size: 45px;
-    margin-top: 30px;
-    width: 40%;
-    line-height: 55px;
-}
-
-.about-3 {
-    font-size: 45px;
-    margin-top: 30px;
-    line-height: 55px;
-    width: 40%;
-}
-
-.about-3 a {
-    border-bottom: 5px solid #00BCD4;
+/* layout hack */
+.clear {
+    clear: both;
 }
 
 /* headings */
@@ -94,12 +89,29 @@ h4 {
     font-size: 18px;
 }
 
-.resume h4 {
-    margin-bottom: 7px;
+/* about styles */
+.about-1 {
+    font-size: 120px;
+    margin-top: 30px;
+    width: 50%;
 }
 
-.work-type h4, .education h4  {
-    margin-bottom: 4px;
+.about-2 {
+    font-size: 45px;
+    margin-top: 30px;
+    width: 40%;
+    line-height: 55px;
+}
+
+.about-3 {
+    font-size: 45px;
+    margin-top: 30px;
+    line-height: 55px;
+    width: 40%;
+}
+
+.about-3 a {
+    border-bottom: 5px solid #00BCD4;
 }
 
 /*
@@ -109,55 +121,11 @@ h4 {
 }
 */
 
-/*
-.project-page {
-    margin-top: 8px;
-}
-*/
-
 #mainNav {
     margin-top: 4px;
 }
-.project-page h2 {
-    margin-top: 0;
-}
-
-.project-page h3 {
-    margin-top: 9px;
-}
-.project-page img {
-    width: 100%;
-    margin:0 0 30px 0;
-}
-
-.project-page li {
-    margin-bottom: 8px;
-}
-
-.project-page ul {
-    margin-bottom: 35px;
-}
-
-/* layout hack */
-.clear {
-    clear: both;
-}
 
 /* framework styles */
-article {
-    width: 1130px;
-    margin: 40px auto;
-    padding: 40px;
-    background-color: #fff;
-    border-top: 20px solid #00BCD4;
-}
-
-header {
-    background-color: #fff;
-    height: 135px;
-    padding-top: 20px;
-}
-
 .half, .half-last {
     width: 50%;
 }
@@ -288,6 +256,7 @@ footer p {
 .resume-left, .resume-right {
     width: 45%;
 }
+
 .resume-left {
     margin-right: 5%;
 }
@@ -296,8 +265,22 @@ footer p {
     margin-left: 5%;
 }
 
+.resume-p {
+    margin-bottom: 10px;
+}
+
+.resume h4 {
+    margin-bottom: 7px;
+}
+
+.work-type h4, .education h4  {
+    margin-bottom: 4px;
+}
+
 .skills li {
     margin-bottom: 7px;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .skills ul {
@@ -315,11 +298,6 @@ footer p {
 
 .awards p {
     margin-bottom: 40px;
-}
-
-.resume p {
-    font-size: 14px;
-    line-height: 18px;
 }
 
 .work-exp, .education {
@@ -356,7 +334,6 @@ footer p {
     border-bottom: none;
 }
 
-
 .social-icon {
     width: 45px;
 }
@@ -389,8 +366,27 @@ footer p {
 .project-img {  
     height: 270px;
     background-repeat: no-repeat;
-    background-position: center;
-    
+    background-position: center; 
+}
+
+.project-page h2 {
+    margin-top: 0;
+}
+
+.project-page h3 {
+    margin-top: 9px;
+}
+.project-page img {
+    width: 100%;
+    margin:0 0 30px 0;
+}
+
+.project-page li {
+    margin-bottom: 8px;
+}
+
+.project-page ul {
+    margin-bottom: 35px;
 }
 
 .logo {
@@ -541,11 +537,6 @@ label {
     font-size: 20px;
 }
 
-.about {
-/*    background-image: url('../imgs/me.jpg');*/
-/*    background-size: 150%;*/
-}
-
 .contact p {
     font-size: 18px;
     margin: 20px 0 30px 0;
@@ -572,11 +563,7 @@ label {
     color: #ff0000;
 }
 
-.resume-p {
-    margin-bottom: 10px;
-}
-
-/* slideshow */
+/* slideshow styles */
 #css3-slider {
     margin:40px auto;
     margin-bottom: 65px;
@@ -626,17 +613,16 @@ label {
   border-radius: 16px;
 }
 
-.seven-labels {
-    margin: 0px 205px; 
+.five-labels {
+    margin: 0px 225px;
 }
-
 
 .six-labels {
    margin: 0px 210px; 
 }
 
-.five-labels {
-    margin: 0px 225px;
+.seven-labels {
+    margin: 0px 205px; 
 }
 
 ul.include-bullets {
@@ -731,7 +717,7 @@ ul.include-bullets {
 
 /* Hide the radio */
 #css3-slider input {
-  display:none;
+    display:none;
 }
 
 
@@ -744,10 +730,6 @@ ul.include-bullets {
     
     .project {
         width: 48%;
-    }
-    
-    .projects {
-/*        margin: 0 5%;*/
     }
     
     .tres-last {
@@ -770,11 +752,11 @@ ul.include-bullets {
     }
     
     #mainNav ul {
-        padding-top: 20px;
+        padding-top: 10px;
     }
     
     nav {
-        line-height: 7px;
+        line-height: 16px;
     }
     
     .name p{
@@ -881,11 +863,7 @@ ul.include-bullets {
 }
 
 @media screen and (max-width: 585px){
-    input, textarea {
-        width:100%;
-    }
-    
-    form {
+    input, textarea, form {
         width: 100%;
     }
 }
@@ -898,7 +876,6 @@ ul.include-bullets {
     .png {
         background-size: 80%;
     }
-    
     
     .about-1 {
         font-size: 100px;
