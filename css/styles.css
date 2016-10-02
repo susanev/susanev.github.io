@@ -265,6 +265,12 @@ footer p {
     margin-left: 5%;
 }
 
+.resume p {
+    max-width: 430px;
+    font-size: 14px;
+    line-height: 18px
+}
+
 .resume-p {
     margin-bottom: 10px;
 }
@@ -279,7 +285,7 @@ footer p {
 
 .skills li {
     margin-bottom: 7px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
 }
 
@@ -287,9 +293,7 @@ footer p {
     margin-bottom: 20px;
 }
 
-.resume p {
-    max-width: 430px
-}
+
 
 
 .skills, .awards {
