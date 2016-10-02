@@ -57,11 +57,6 @@ input, p, a, li {
     clear: both;
 }
 
-/* layout hack */
-.clear {
-    clear: both;
-}
-
 /* headings */
 h1 {
     font-size: 48px; 
