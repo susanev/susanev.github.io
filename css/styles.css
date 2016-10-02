@@ -33,6 +33,16 @@ input, p, a, li {
     font-family: "Crimson+Text", Arial, sans-serif;
 }
 
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
 .about-1 {
     font-size: 120px;
     margin-top: 30px;
@@ -173,41 +183,7 @@ header {
 .project-page img.png {
     width: 50%;
 }
-.safer-conception-page {
-    height: 1580px;
-}
 
-.shelter-page {
-    height: 1950px;
-}
-
-.art-guide-page {
-    height: 1000px;
-}
-
-.heart-page {
-    height: 1000px;
-}
-
-.incloodle-page {
-    height: 2000px;
-}
-
-.pscsta-page {
-    height: 1450px;
-}
-
-.liy-page {
-    height: 950px;
-}
-
-.ubi-page {
-    height: 1600px;
-}
-
-.ride-page {
-    height: 1750px;
-}
 .project-page p, .project-page li {
     font-size: 18px;
     line-height: 24px;
@@ -254,7 +230,6 @@ nav a:hover {
 /* footer styles */
 footer {
     background-color: #222;
-    height: 225px;
     padding: 40px;
 }
 
@@ -310,9 +285,6 @@ footer p {
 }
 
 /* resume styles */
-.resume {
-    height: 1350px;
-}
 .resume-left, .resume-right {
     width: 45%;
 }
@@ -393,8 +365,6 @@ footer p {
 .about {
     background-image: url('../imgs/me.jpg');
     background-size: cover;
-    height: 1200px;
-    
 }
 
 /* project styles */
@@ -811,14 +781,6 @@ ul.include-bullets {
         font-size: 50px;
         padding-top: 10px;
     }
-    
-    .about {
-        height: 1400px;
-    }
-    
-    .resume {
-        height: 2450px;
-    }
 }
 
 @media screen and (max-width: 973px) {  
@@ -879,16 +841,11 @@ ul.include-bullets {
         width: 100px;
         font-size: 34px;
     }
-    
-    .about {
-        height: 1600px;
-    }
 }
 
 @media screen and (max-width: 765px) {  
     .about {
         background-image: url('../imgs/background.jpg');
-        height: 1000px;
     }
     
     article h1 {
@@ -912,10 +869,6 @@ ul.include-bullets {
     
     .project {
         margin-right: 0;
-    }
-    
-    footer {
-        height: 320px;
     }
     
     .about-1, .about-2, .about-3 {
@@ -946,15 +899,8 @@ ul.include-bullets {
         background-size: 80%;
     }
     
-    .about {
-        height: 1200px;
-    }
     
     .about-1 {
         font-size: 100px;
-    }
-    
-    .resume {
-        height: 2700px;
     }
 }
