@@ -880,3 +880,33 @@ ul.include-bullets {
         font-size: 100px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    footer .half, footer .half-last {
+        width: 100%;
+    }
+    
+        
+    footer p, .footer-nav {
+        text-align: center;
+    }
+    
+    .footer-nav {
+        float: none;
+        margin: 0 0 40px 0;
+        font-size: 24px;
+    }
+    
+    ul.footer-nav li {
+        margin-bottom: 8px;
+    }
+    
+    .social-media {
+        width: 200px;
+        margin: 20px auto;
+    }
+    
+    .social-media img {
+        width: 60px;
+    }
+}
