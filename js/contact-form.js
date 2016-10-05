@@ -5,8 +5,8 @@
 function checkValues() {
     var elements = [document.getElementById("contact-name"), document.getElementById("contact-email"), document.getElementById("contact-msg")];
     
-    var empty = 0
-    for(var i=0; i<elements.length; i++){
+    var empty = 0;
+    for (var i=0; i<elements.length; i++) {
         if(elements[i].value == ""){
             elements[i].style.borderColor = "#ff0000";
             elements[i].style.borderWidth = "2px"
