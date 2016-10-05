@@ -11,6 +11,7 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
         <script type="text/javascript" src="js/basic.js"></script>
+        <script type="text/javascript" src="js/contact-form.js"></script>
     </head>
     <body>
         <header class="clearfix">
@@ -18,7 +19,7 @@
                 <p>Susan Evans</p>
             </div></a>
             
-            <div class="hamburger" onclick="showNav()">
+            <div class="hamburger" onclick="toggleNav()">
                 <div id="line1" class="no-rotate"></div>
                 <div id="line2" class="no-rotate"></div>
                 <div id="line3" class="no-rotate"></div>
@@ -36,19 +37,20 @@
         <article class="clearfix contact">
             <h1>Contact</h1>
             <p>I am currently available for hire as a UX Designer + Developer.<br/>Please reach out to me using the contact form below.</p>
-            <form method="post" action="https://formspree.io/susan.ra.evans@gmail.com">
+            <form id="contact-form" method="post" action="https://formspree.io/susan.ra.evans@gmail.com">
                 <label>Name<span class="error">*</span></label>
-                <input name="name" placeholder="Type Here">
+                <input id="contact-name" name="name" placeholder="Type Here">
 
                 <label>Email<span class="error">*</span></label>
-                <input name="email" type="email" placeholder="Type Here">
+                <input id="contact-email" name="email" type="email" placeholder="Type Here">
 
                 <label>Message<span class="error">*</span></label>
-                <textarea name="message" placeholder="Type Here"></textarea>
+                <textarea id="contact-msg" name="message" placeholder="Type Here"></textarea>
 
                 <input type="text" name="_gotcha" style="display:none" />
-
-                <input id="submit" name="submit" type="submit" class="button" value="Submit">
+                
+                <p id="user-msg"></p>
+                <input id="submit" name="submit" type="submit" class="button" value="Submit" onclick="return checkValues()">
                 
                 <input type="hidden" name="_next" value="thankyou.html" />
                 <input type="hidden" name="_subject" value="Website Contact Submission" />
