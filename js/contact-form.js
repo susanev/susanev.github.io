@@ -3,6 +3,18 @@
     and that email contains @
 */
 function checkValues() {
+    return checkAllValues();
+}
+
+function checkValue(element) {
+    if(element.style.getPropertyValue('border-color') == "rgb(255, 0, 0)" && element.value != ""){
+        formElementReset(element);
+    }
+    
+    checkAllValues();
+}
+
+function checkAllValues() {
     var elements = [document.getElementById("contact-name"), document.getElementById("contact-email"), document.getElementById("contact-msg")];
     
     var empty = 0;
@@ -13,12 +25,12 @@ function checkValues() {
             empty++;
         }
         else {
-            elements[i].style.borderColor = "#dedede";
-            elements[i].style.borderWidth = "1px"
+            formElementReset(elements[i]);
         }
     }
     
     if(empty == 0){
+        document.getElementById("user-msg").style.display = "none";
         return true;
     }
 
@@ -27,6 +39,11 @@ function checkValues() {
         document.getElementById("user-msg").style.display = "block";
         return false;
     }
+}
+
+function formElementReset(element) {
+    element.style.borderColor = "#dedede";
+    element.style.borderWidth = "1px";
 }
 
 window.onload = function() {
