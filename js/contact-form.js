@@ -7,13 +7,13 @@ function checkValues() {
 }
 
 function checkValue(id) {
-    if($("#"+id).attr("class") == "error-border" && $("#"+id).val() != ""){
-        $("#"+id).removeClass("error-border");
-        $("#"+id).addClass("reset-border");
+    if($(id).attr("class") == "error-border" && $(id).val() != ""){
+        $(id).removeClass("error-border");
+        $(id).addClass("reset-border");
     }
     else {
-        $("#"+id).addClass("error-border");
-        $("#"+id).removeClass("reset-border");
+        $(id).addClass("error-border");
+        $(id).removeClass("reset-border");
     }
     
     checkAllValues();
