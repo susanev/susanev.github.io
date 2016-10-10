@@ -39,13 +39,13 @@
             <p>I am currently available for hire as a UX Designer + Developer.<br/>Please reach out to me using the contact form below.</p>
             <form id="contact-form" method="post" action="https://formspree.io/susan.ra.evans@gmail.com">
                 <label>Name<span class="error">*</span></label>
-                <input id="contact-name" name="name" placeholder="Type Here" onblur="checkValue(this)">
+                <input id="contact-name" name="name" placeholder="Type Here" onblur="checkValue('contact-name')">
 
                 <label>Email<span class="error">*</span></label>
-                <input id="contact-email" name="email" type="email" placeholder="Type Here" onblur="checkValue(this)">
+                <input id="contact-email" name="email" type="email" placeholder="Type Here" onblur="checkValue('contact-email')">
 
                 <label>Message<span class="error">*</span></label>
-                <textarea id="contact-msg" name="message" placeholder="Type Here" onblur="checkValue(this)"></textarea>
+                <textarea id="contact-msg" name="message" placeholder="Type Here" onblur="checkValue('contact-msg')"></textarea>
 
                 <input type="text" name="_gotcha" style="display:none" />
                 

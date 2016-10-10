@@ -566,6 +566,14 @@ label, #user-msg {
     color: #ff0000;
 }
 
+.error-border {
+    border: 2px solid #ff0000;
+}
+
+.reset-border {
+    border: 1px solid #dedede;
+}
+
 /* slideshow styles */
 #css3-slider {
     margin:40px auto;

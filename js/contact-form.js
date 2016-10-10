@@ -6,46 +6,46 @@ function checkValues() {
     return checkAllValues();
 }
 
-function checkValue(element) {
-    if(element.style.getPropertyValue('border-color') == "rgb(255, 0, 0)" && element.value != ""){
-        formElementReset(element);
+function checkValue(id) {
+    if($("#"+id).attr("class") == "error-border" && $("#"+id).val() != ""){
+        $("#"+id).removeClass("error-border");
+        $("#"+id).addClass("reset-border");
+    }
+    else {
+        $("#"+id).addClass("error-border");
+        $("#"+id).removeClass("reset-border");
     }
     
     checkAllValues();
 }
 
 function checkAllValues() {
-    var elements = [document.getElementById("contact-name"), document.getElementById("contact-email"), document.getElementById("contact-msg")];
+    var elements = [$("#contact-name"), $("#contact-email"), $("#contact-msg")];
     
     var empty = 0;
     for (var i=0; i<elements.length; i++) {
-        if(elements[i].value == ""){
-            elements[i].style.borderColor = "#ff0000";
-            elements[i].style.borderWidth = "2px"
+        if(elements[i].val() == ""){
+            elements[i].addClass("error-border");
             empty++;
         }
         else {
-            formElementReset(elements[i]);
+            elements[i].removeClass("error-border");
+            elements[i].addClass("reset-border");
         }
     }
-    
+        
     if(empty == 0){
-        document.getElementById("user-msg").style.display = "none";
+        $("#user-msg").hide();
         return true;
     }
 
-    else {        
-        document.getElementById("user-msg").textContent = "Please fill in all of the fields";
-        document.getElementById("user-msg").style.display = "block";
+    else {   
+        $("#user-msg").text("Please fill in all of the fields");;
+        $("#user-msg").show();
         return false;
     }
 }
 
-function formElementReset(element) {
-    element.style.borderColor = "#dedede";
-    element.style.borderWidth = "1px";
-}
-
 window.onload = function() {
-    document.getElementById("user-msg").style.display = "none";
+    $("#user-msg").hide();
 }
