@@ -6,32 +6,31 @@ function checkValues() {
     return checkAllValues();
 }
 
-function checkValue(id) {
-    if($(id).attr("class") == "error-border" && $(id).val() != ""){
-        $(id).removeClass("error-border");
-        $(id).addClass("reset-border");
-        
+function checkValue(element) {
+    if($(element).hasClass("error-border") && $(element).val() != ""){
+        $(element).removeClass("error-border");
+        $(element).addClass("reset-border");
         checkAllValues();
     }
-    
-    else if($(id).attr("class") != "error-border" && $(id).val() == ""){
-        $(id).addClass("error-border");
-        $(id).removeClass("reset-border");
+
+    else if(!$(element).hasClass("error-border") && $(element).val() == ""){
+        $(element).addClass("error-border");
+        $(element).removeClass("reset-border");
     }
 }
 
 function checkAllValues() {
-    var elements = [$("#contact-name"), $("#contact-email"), $("#contact-msg")];
-    
+    var elements = $(".form-field");
+
     var empty = 0;
     for (var i=0; i<elements.length; i++) {
-        if(elements[i].val() == ""){
-            elements[i].addClass("error-border");
+        if($(elements[i]).val() == ""){
+            $(elements[i]).addClass("error-border");
             empty++;
         }
         else {
-            elements[i].removeClass("error-border");
-            elements[i].addClass("reset-border");
+            $(elements[i]).removeClass("error-border");
+            $(elements[i]).addClass("reset-border");
         }
     }
         
