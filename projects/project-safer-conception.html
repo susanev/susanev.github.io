@@ -6,17 +6,18 @@
         <title>susan evans.</title>
         <link href='https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css' />
         <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic' rel='stylesheet' type='text/css'>
-        <link type='text/css' rel='stylesheet' href="../css/reset.css" />
-        <link type='text/css' rel='stylesheet' href="../css/styles.css" />
+        <link type='text/css' rel='stylesheet' href="css/reset.css" />
+        <link type='text/css' rel='stylesheet' href="css/styles.css" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="../js/basic.js"></script>
+        <script type="text/javascript" src="js/basic.js"></script>
     </head>
     <body>
         <header class="clearfix">
-            <a href="../index.html"><div class="name">
+            <a href="index.html"><div class="name">
                 <p>Susan Evans</p>
             </div></a>
+            
             <div class="hamburger" onclick="toggleNav()">
                 <div id="line1" class="no-rotate"></div>
                 <div id="line2" class="no-rotate"></div>
@@ -24,108 +25,17 @@
             </div>
             <nav id="mainNav">
                 <ul>
-                    <li><a href="../index.html">Portfolio</a></li>
-                    <li><a href="../resume.html">R&eacute;sum&eacute;</a></li>
-                    <li><a href="../about.html">About</a></li>
-                    <li class="last"><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="resume.html">R&eacute;sum&eacute;</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="last"><a class="active" href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
-        
-<!--
-        <div class="breadcrumb">
-            <a href="../index.html">&#60; Back to Portfolio</a>
-        </div>
--->
-        
-        <article class="clearfix project-page">
-            <div class="two-thirds project-details">
-                <h2>Project Summary</h2>
-                <p>In a small team, I created a tablet app prototype for clinicians to use to help serodiscordant couples (one partner living with HIV) safely conceive children. The prototype focused on displaying the couples data visually while also being an education tool about the woman's fertility cycle and the viral load of the partner living with HIV. The goal of the project was to build a fully interactive prototype that could be used on site in Kenya and Uganda during usability test with clinicians.</p>
-               
-                <ul id="css3-slider" class="tablet">
-                    <li>
-                        <input type="radio" id="s1" name="num" checked="true" />
-                        <label class="six-labels" for="s1"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/safer-conception/safer-conception.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s2" name="num" />
-                        <label class="six-labels" for="s2"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/safer-conception/safer-conception-sketch1.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s3" name="num" />
-                        <label class="six-labels" for="s3"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/safer-conception/safer-conception-sketch2.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s4" name="num" />
-                        <label class="six-labels" for="s4"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/safer-conception/safer-conception-linear-view.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s5" name="num" />
-                        <label class="six-labels" for="s5"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/safer-conception/safer-conception-cycle-view.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s6" name="num" />
-                        <label class="six-labels" for="s6"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/safer-conception/safer-conception-PREP.png" />
-                        </a>
-                    </li>
-                </ul>
-                
-                <h2>Problem Space</h2>
-                <p>Many serodiscordant couples in Kenya and Uganda want to have children, but unfortunately the clinicians struggle with informing the couples about when it is safest to conceive.</p>
-                
-                <p>How might we develop an app to better support the clinicians goals of providing the tools and education about the safest times to conceive?</p>
-                
-                <h2>Process</h2>
-                <p>We started our project by researching and learning about the fertility cycle and treatment of HIV by reading relevant literature, interviewing clinicians, and viewing presentations about how the clinics operate. Next, I completed a comparative analysis of apps currently on the market to track both fertility and medication.</p>
-                
-                <p>After researching I began sketching and paper prototyping solutions. After many iterations I built and iterated on an <a href="http://b0tbhf.axshare.com/#p=login">Axure prototype</a>.</p>
-                <p> Throughout the prototyping process we ran small feedback sessions and usability students to ensure it was ready for use in the usability studies in Africa.</p>
-                
-                <h2>Results</h2>
-                <p>Our app was successfully brought to Africa and we were able to obtain valuable usability feedback, the app was then brought to development.</p>
-                <p>We also published a peer-reviewed paper for the 2015 Wireless Health conference, titled "Prototype Development for a Clinic-Based Mobile Health Tablet Application for Kenyan HIV-1 Serodiscordant Couples Using Safer Conception Strategies".</p>
-            </div>
-            <div class="one-third project-facts">
-                <h3>Title</h3>
-                <p>Safer Conception</p>
-                
-                <h3>Date</h3>
-                <p>Jan 2015 - Mar 2015</p>
-                
-                <h3>Links</h3>
-                <ul><li><a href="http://b0tbhf.axshare.com/#p=login">Axure Prototype</a></li><li><a href="http://grantome.com/grant/NIH/R21-TW009908-01">Grant Abstract</a></li></ul>
-                
-                <h3>Tasks</h3>
-                <ul><li>User Research</li>
-                <li>Competitive Analysis</li>
-                <li>Prototyping</li></ul>
-                
-                <h3>Tools</h3>
-                <ul><li>Axure</li>
-                <li>Beanstalk</li></ul>
-                
-                <h3>Collaborators</h3>
-                <ul><li><a href="http://www.nwcphp.org/about/people/kristin-dew">Kristen Dew</a></li><li><a href="http://www.linkedin.com/in/marklaughery">Mark Laughery</a></li></ul>
-            </div>
+        <article class="clearfix contact thank-you">
+            <h1>Thank You</h1>
+            <p>Your message has been sent. Thank you for your time.</p>
         </article>
 
         <footer class="clearfix">
@@ -144,12 +54,11 @@
                 <p class="copyright">&copy; Copyright Susan Evans. All rights reserved.</p>
         
                 <div class="social-media">
-                    <a href="http://github.com/susanev"><img class="social-icon" src="imgs/svg/github.svg" /></a>
-                    <a href="http://www.linkedin.com/in/susanev"><img class="social-icon" src="imgs/svg/linkedin.svg" /></a>
-                    <a href="http://twitter.com/susanrevans"><img class="social-icon" src="imgs/svg/twitter.svg" /></a>
+                    <a class="social-github" href="http://github.com/susanev"></a>
+                    <a class="social-linkedin" href="http://www.linkedin.com/in/susanev"></a>
+                    <a class="social-twitter" href="http://twitter.com/susanrevans"></a>
                 </div>
             </div>
         </footer>
-
     </body>
 </html>

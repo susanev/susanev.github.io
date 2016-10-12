@@ -6,17 +6,18 @@
         <title>susan evans.</title>
         <link href='https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css' />
         <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic' rel='stylesheet' type='text/css'>
-        <link type='text/css' rel='stylesheet' href="../css/reset.css" />
-        <link type='text/css' rel='stylesheet' href="../css/styles.css" />
+        <link type='text/css' rel='stylesheet' href="css/reset.css" />
+        <link type='text/css' rel='stylesheet' href="css/styles.css" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="../js/basic.js"></script>
+        <script type="text/javascript" src="js/basic.js"></script>
     </head>
     <body>
         <header class="clearfix">
             <a href="index.html"><div class="name">
                 <p>Susan Evans</p>
             </div></a>
+            
             <div class="hamburger" onclick="toggleNav()">
                 <div id="line1" class="no-rotate"></div>
                 <div id="line2" class="no-rotate"></div>
@@ -24,52 +25,138 @@
             </div>
             <nav id="mainNav">
                 <ul>
-                    <li><a href="../index.html">Portfolio</a></li>
-                    <li><a href="../resume.html">R&eacute;sum&eacute;</a></li>
-                    <li><a href="../about.html">About</a></li>
-                    <li class="last"><a href="../contact.html">Contact</a></li>
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a class="active" href="resume.html">R&eacute;sum&eacute;</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="last"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
-<!--
-        <div class="breadcrumb">
-            <a href="../index.html">&#60; Back to Portfolio</a>
-        </div>
--->
-        
-        <article class="clearfix project-page">
-            <div class="two-thirds project-details">
-                <h2>Project Summary</h2>
-                <p>Tasked with creating a brand-identity for a Mixed Martial Arts clothing company specifically focused on a gender inclusive audience. I created a logo and responsive website.</p>
-                
-                <img src="../imgs/project-imgs/heart/heart.png">
-                
-                <h2>Problem Space</h2>
-                <p>How can we develop a brand for Mixed Martial Arts clothing company whose focus is on accessibility for all genders?</p>
-                
-                <h2>Process</h2>
-                <p>I iterated on the logo both by sketching on paper, and drafting logos in Adobe Illustrator. Once a responsive logo was created I began sketching web layouts, and testing to ensure the most optimal information architecture. Then I began front-end development using HTML, CSS, and JavaScript.</p>
+        <article class="clearfix resume">
+            <h1>R&eacute;sum&eacute;</h1>
+
+            <a href="pdf/evans_resume.pdf" download><div class="button">Download .pdf version</div></a>
+
+            <div class="half resume-left">
+                <div class="intro-block">
+                    <h2>Susan Evans</h2>
+                    <h4>UX Designer + Developer</h4>
+
+                    <ul class="contact-info">
+                        <li>susanev.com</li>
+                        <li>hello@susanev.com</li>
+                        <li>(206) 395-8146</li>
+                    </ul>
+
+                    <p class="resume-p">I am passionate about improving the human experience by combining deep technical and design knowledge to craft digital experiences.</p>
+                    
+                    <p class="resume-p">I love solving challenging problems in diverse teams while using user-centered practices.</p>
+                </div>
+                <div class="social-media">                     <a class="social-github" href="http://github.com/susanev"></a>                     <a class="social-linkedin" href="http://www.linkedin.com/in/susanev"></a>                     <a class="social-twitter" href="http://twitter.com/susanrevans"></a>                 </div>
+                <div class="clearfix skills">
+                    <h3>Skills</h3>
+                    <div class="half">
+                        <h4>Design</h4>
+                        <ul>
+                            <li>Rapid Prototyping</li>
+                            <li>Wireframing</li>
+                            <li>UI design</li>
+                            <li>Interaction design</li>
+                            <li>Web design</li>
+                        </ul>
+
+                        <h4>Programming</h4>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>Ruby</li>
+                            <li>JavaScript</li>
+                            <li>HTML &amp; CSS</li>
+                        </ul>
+                    </div>
+                    <div class="half-last">
+                        <h4>Tools</h4>
+                        <ul>
+                            <li>Sketch</li>
+                            <li>Axure RP</li>
+                            <li>Illustrator</li>
+                            <li>Indesign</li>
+                            <li>Premier</li>
+                        </ul>
+
+                        <h4>Research</h4>
+                        <ul>
+                            <li>Competitive Analysis</li>
+                            <li>Surveys</li>
+                            <li>Interviews</li>
+                            <li>Usability studies</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="awards">
+                    <h3>Awards</h3>
+                    <h4>Hackster Hardware Weekend</h4>
+                    <p>1st place in the 2015 Seattle hackathon with a hardware IoT solution to ensure car seats are successfully installed before the driver engages the engine.</p>
+                </div>
             </div>
-            <div class="one-third project-facts">
-                <h3>Title</h3>
-                <p>Heart Branding and Web Design</p>
+
+            <div class="half-last resume-right">
+                <section class="work-exp">
+                    <h3>Work Experience</h3>
+                    <div class="work-type">
+                        <h4>User Experience Designer</h4>
+                        <p>University of Washington LiY!</p>
+                        <p>Feb 2014 &#8211; May 2016</p>
+                        <p>Designed and usability tested a tool for faculty across the nation to use when creating workshops focused on the advancement of women and underrepresented groups in engineering fields.</p>
+                    </div>
+
+                    <div class="work-type">
+                        <h4>Web Designer</h4>
+                        <p>PSCSTA</p>
+                        <p>Mar 2014 &#8211; Jun 2015</p>
+                        <p>Led the redesign of a website for computer science teachers and students, which included user research, usability studies, implementation and evaluation. Improving access and awareness in the community.</p>
+                    </div>
+
+                    <div class="work-type">
+                        <h4>User Researcher</h4>
+                        <p>Ubi Interactive</p>
+                        <p>Dec 2014 &#8211; Mar 2015</p>
+                        <p>Collaborated in a student team to conduct user research and usability studies on Ubi's software installation process. We presented our findings and all of our recommendations were implemented.</p>
+                    </div>
+
+                    <div class="work-type">
+                        <h4>Lecturer</h4>
+                        <p>University of Washington CSE</p>
+                        <p>Mar 2016 &#8211; Present</p>
+                        <p>Design and teach undergraduate and graduate introductory programming courses using a variety of languages including Java, Processing and p5.js.</p>
+                    </div>
+
+                    <div class="work-type">
+                        <h4>Computer Science Instructor</h4>
+                        <p>Seattle Public Schools</p>
+                        <p>Sep 2011 &#8211; Sep 2015</p>
+                        <p>Created a rigorous, supportive, 4-year cs program in an ethnically diverse and low-income South Seattle school, which emphasized authentic learning, exploration, and community involvement.</p>
+                    </div>
+                </section>
                 
-                <h3>Date</h3>
-                <p>Jan 2016 - Mar 2016</p>
-                                
-                <h3>Tasks</h3>
-                <ul><li>User Research</li>
-                <li>Content Strategy</li>
-                <li>Web Design</li>
-                <li>Web Development</li></ul>
-                
-                <h3>Tools</h3>
-                <ul><li>Adobe Illustrator</li>
-                <li>Adobe Photoshop</li>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li></ul>
+                <section class="education">
+                    <div class="ed-type">
+                        <h3>Education</h3>
+                        <h4>University of Washington</h4>
+                        <p>MS in Human Centered Design &amp; Engineering</p>
+                        <p>Graduated Jun 2016</p>
+                    </div>
+
+                    <div class="ed-type">
+                        <h4>University of Arizona</h4>
+                        <p>BS in Computer Science and Mathematics</p>
+                        <p>Graduated Dec 2008</p>
+                    </div>
+                </section>
             </div>
+
         </article>
 
         <footer class="clearfix">
@@ -88,12 +175,11 @@
                 <p class="copyright">&copy; Copyright Susan Evans. All rights reserved.</p>
         
                 <div class="social-media">
-                    <a href="http://github.com/susanev"><img class="social-icon" src="imgs/svg/github.svg" /></a>
-                    <a href="http://www.linkedin.com/in/susanev"><img class="social-icon" src="imgs/svg/linkedin.svg" /></a>
-                    <a href="http://twitter.com/susanrevans"><img class="social-icon" src="imgs/svg/twitter.svg" /></a>
+                    <a class="social-github" href="http://github.com/susanev"></a>
+                    <a class="social-linkedin" href="http://www.linkedin.com/in/susanev"></a>
+                    <a class="social-twitter" href="http://twitter.com/susanrevans"></a>
                 </div>
             </div>
         </footer>
-
     </body>
 </html>
