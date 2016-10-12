@@ -10,13 +10,14 @@ function checkValue(id) {
     if($(id).attr("class") == "error-border" && $(id).val() != ""){
         $(id).removeClass("error-border");
         $(id).addClass("reset-border");
+        
+        checkAllValues();
     }
-    else {
+    
+    else if($(id).attr("class") != "error-border" && $(id).val() == ""){
         $(id).addClass("error-border");
         $(id).removeClass("reset-border");
     }
-    
-    checkAllValues();
 }
 
 function checkAllValues() {
