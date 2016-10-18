@@ -6,17 +6,19 @@
         <title>susan evans.</title>
         <link href='https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css' />
         <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic' rel='stylesheet' type='text/css'>
-        <link type='text/css' rel='stylesheet' href="../css/reset.css" />
-        <link type='text/css' rel='stylesheet' href="../css/styles.css" />
+        <link type='text/css' rel='stylesheet' href="css/reset.css" />
+        <link type='text/css' rel='stylesheet' href="css/styles.css" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="../js/basic.js"></script>
+        <script type="text/javascript" src="js/basic.js"></script>
+        <script type="text/javascript" src="js/contact-form.js"></script>
     </head>
     <body>
         <header class="clearfix">
-            <a href="../index.html"><div class="name">
+            <a href="index.html"><div class="name">
                 <p>Susan Evans</p>
             </div></a>
+            
             <div class="hamburger" onclick="toggleNav()">
                 <div id="line1" class="no-rotate"></div>
                 <div id="line2" class="no-rotate"></div>
@@ -24,63 +26,44 @@
             </div>
             <nav id="mainNav">
                 <ul>
-                    <li><a href="../index.html">Portfolio</a></li>
-                    <li><a href="../resume.html">R&eacute;sum&eacute;</a></li>
-                    <li><a href="../about.html">About</a></li>
-                    <li class="last"><a href="../contact.html">Contact</a></li>
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="resume.html">R&eacute;sum&eacute;</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="last"><a class="active" href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
-              
-        <article class="clearfix project-page">
-            <div class="two-thirds project-details">
-                <h2>Project Summary</h2>
-                <p>Lead-it-Yourself! is a National Science Foundation supported project led by Eve Riskin, and Jan Spyridakis of the University of Washington. The project aims to support schools across the nation in leading professional development for faculty to reduce biases in Engineering fields. I had the privellage of contributing to this project by leading the user experience design, which included user research, usability studies, content strategy, and web design.</p>
-                
-                <h2>Problem Space</h2>
-                <p>How might we develop a website to support schools in leading workshops aimed at recognicing and reducing biases in Engineering fields?</p>
-                
-                <h2>Process</h2>
-                <p>Before any development began, I conducted numerous interviews to fully understand the space, and develop a persona. Then as a team, guided by the user research I established a set of goals and tasks for the website.</p>
-                
-                <p>I then created and iterated on an Axure prototype, guided by remotely-conducted usability studies. After many iterations, and when I stopped finding significant issues in the usability students we began development using a Drupal framework.</p>
-                
-                <h2>Results</h2>
-                <p>The LiY! website is still in production, and will be released in Beta starting in Winter 2017.</p>
 
-            </div>
-            <div class="one-third project-facts">
-                <img class="png" src="../imgs/project-imgs/liy/liy.svg">
+        <article class="clearfix contact">
+            <h1>Contact</h1>
+            <p>I am currently available for hire as a UX Designer + Developer.<br/>Please reach out to me using the contact form below.</p>
+            <form id="contact-form" method="post" action="https://formspree.io/susan.ra.evans@gmail.com">
+                <label>Name<span class="error">*</span></label>
+                <input class="form-field" name="name" placeholder="Type Here" onblur="checkValue(this)">
+
+                <label>Email<span class="error">*</span></label>
+                <input class="form-field" name="email" type="email" placeholder="Type Here" onblur="checkValue(this)">
+
+                <label>Message<span class="error">*</span></label>
+                <textarea class="form-field" name="message" placeholder="Type Here" onblur="checkValue(this)"></textarea>
+
+                <input type="text" name="_gotcha" style="display:none" />
                 
-                <h3>Title</h3>
-                <div class="social-media">                     <a class="social-github" href="http://github.com/susanev"></a>                     <a class="social-linkedin" href="http://www.linkedin.com/in/susanev"></a>                     <a class="social-twitter" href="http://twitter.com/susanrevans"></a>                 </div>                <p>Lead-it-Yourself!</p>
+                <p id="user-msg"></p>
+                <input id="submit" name="submit" type="submit" class="button" value="Submit" onclick="return checkValues()">
                 
-                <h3>Date</h3>
-                <p>Feb 2014 - Mar 2016</p>
-                
-                <h3>Links</h3>
-                <ul><li><a href="http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5383">Grant Summary</a></li></ul>
-                                
-                <h3>Tasks</h3>
-                <ul><li>User Research</li>
-                <li>Usability Studies</li>
-                <li>Content Strategy</li>
-                <li>Web Design</li></ul>
-                
-                <h3>Tools</h3>
-                <ul><li>Drupal</li>
-                <li>Axure</li>
-                <li>HTML/CSS</li></ul>
-            </div>
+                <input type="hidden" name="_next" value="thankyou.html" />
+                <input type="hidden" name="_subject" value="Website Contact Submission" />
+            </form>
         </article>
 
-         <footer class="clearfix">
+        <footer class="clearfix">
             <div class="half-last">
                 <ul class="footer-nav">
                     <li><a href="index.html">Portfolio</a></li>
                     <li><a href="resume.html">Resume</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>                <div class="social-media">                     <a class="social-github" href="http://github.com/susanev"></a>                     <a class="social-linkedin" href="http://www.linkedin.com/in/susanev"></a>                     <a class="social-twitter" href="http://twitter.com/susanrevans"></a>                 </div>                <div class="social-media">                     <a class="social-github" href="http://github.com/susanev"></a>                     <a class="social-linkedin" href="http://www.linkedin.com/in/susanev"></a>                     <a class="social-twitter" href="http://twitter.com/susanrevans"></a>                 </div>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
             
@@ -96,6 +79,5 @@
                 </div>
             </div>
         </footer>
-
     </body>
 </html>
