@@ -133,6 +133,10 @@ h4 {
     float: right;
 }
 
+.resume .half-last {
+    float: left;
+}
+
 .two-thirds {
     width: 56%;
     float: left;
@@ -249,7 +253,7 @@ footer p {
 
 /* resume styles */
 .resume-left, .resume-right {
-    width: 45%;
+    width: 40%;
 }
 
 .resume-left {
@@ -841,11 +845,27 @@ ul.include-bullets {
         float: none;
     }
     
+    .skills .half, .skills .half-last {
+        width: 50%;
+    }
+
+    .skills .half {
+        float: left;
+    }
+
+    .skills .half-last {
+        float: right;
+    }
+
     .resume-left, .resume-right {
         margin: 0;
         float: none;
         width: 90%;
-        margin: 0 5%;
+        margin: 0;
+    }
+    
+    .intro-block {
+        margin: 40px 0;
     }
     
     .name {
@@ -898,6 +918,11 @@ ul.include-bullets {
 @media screen and (max-width: 585px){
     input, textarea, form {
         width: 100%;
+    }
+    
+    .skills .half, .skills .half-last {
+        width: 90%;
+        float: none;
     }
 }
 
