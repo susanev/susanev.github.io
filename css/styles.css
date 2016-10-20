@@ -266,7 +266,7 @@ footer p {
     line-height: 18px
 }
 
-.resume-p {
+.resume .intro-block p{
     margin-bottom: 10px;
 }
 
@@ -316,7 +316,7 @@ footer p {
 }
 
 .intro-block {
-    margin: 100px 0;
+    margin: 170px 0;
 }
 
 .social-media {
