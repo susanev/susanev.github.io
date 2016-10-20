@@ -338,7 +338,7 @@ footer p {
 }
 
 div.social-media a {
-    width: 38px;
+    width: 36px;
     height: 35px;
     display: block;
     float: left; 
@@ -348,7 +348,7 @@ div.social-media a {
 .social-github {
     background: url('../imgs/svg/social-icons.svg') no-repeat;
     background-size:cover;
-    background-position: -38px;
+    background-position: -52px;
 }
 
 a.social-twitter {
@@ -360,7 +360,7 @@ a.social-twitter {
 .social-linkedin {
     background: url('../imgs/svg/social-icons.svg') no-repeat;
     background-size:cover;
-    background-position: -76px;
+    background-position: -103px;
 }
 
 /* about styles */
