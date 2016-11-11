@@ -863,6 +863,10 @@ li.rslides_here {
         width: 90%;
         float: none;
     }
+
+    .project-details, .project-facts {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 460px) {
