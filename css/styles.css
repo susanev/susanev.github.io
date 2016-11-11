@@ -672,27 +672,27 @@ li.rslides_here {
 }
 
 .projects a:nth-of-type(4n - 2) .project-img {
-    background-color: #CDDC39;
+    background-color: #46B3A8;
 }
 
 .projects a:nth-of-type(4n - 2) .project-info {
-    background-color: #8F9A27;
+    background-color: #00796B;
 }
 
 .projects a:nth-of-type(4n - 1) .project-img {
-    background-color: #FFC107;
-}
-
-.projects a:nth-of-type(4n - 1) .project-info {
-    background-color: #CC9A05;
-}
-
-.projects a:nth-of-type(4n) .project-img {
     background-color: #CDDC39;
 }
 
-.projects a:nth-of-type(4n) .project-info {
+.projects a:nth-of-type(4n - 1) .project-info {
     background-color: #8F9A27;
+}
+
+.projects a:nth-of-type(4n) .project-img {
+    background-color: #46B3A8;
+}
+
+.projects a:nth-of-type(4n) .project-info {
+    background-color: #00796B;
 }
 
 /* media queries */
@@ -715,19 +715,19 @@ li.rslides_here {
     }
 
     .projects a:nth-of-type(3n - 1) .project-img {
-        background-color: #CDDC39;
+        background-color: #46B3A8;
     }
 
     .projects a:nth-of-type(3n - 1) .project-info {
-        background-color: #8F9A27;
+        background-color: #00796B;
     }
 
     .projects a:nth-of-type(3n) .project-img {
-        background-color: #FFC107;
+        background-color: #CDDC39;
     }
 
     .projects a:nth-of-type(3n) .project-info {
-        background-color: #CC9A05;
+        background-color: #8F9A27;
     }
     
     .tres-last {
