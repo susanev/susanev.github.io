@@ -9,7 +9,8 @@
         <link type='text/css' rel='stylesheet' href="../css/reset.css" />
         <link type='text/css' rel='stylesheet' href="../css/styles.css" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/responsiveslides.min.js"></script>
         <script type="text/javascript" src="../js/basic.js"></script>
     </head>
     <body>
@@ -44,58 +45,18 @@
                 <p>During my capstone project in the Master's program in Human Centered Design and Engineering at the University of Washington, I was sponsored by Intel to explore how autonmous vehicles (AVs) might exist in the near future (5 &ndash; 10 year range). I, along with my team decided to focus specifically on how AVs might be used to benefit society.</p>
                 
                 <p>I created an entire system design including interactive prototypes for website, mobile, and in-AV experience for a system that provides paid rides, as well as free rides for people who are income insecure.</p>
-                
-                <ul id="css3-slider" class="ride">
-                    <li>
-                        <input type="radio" id="s1" name="num" checked="true" />
-                        <label class="seven-labels" for="s1"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/ride/ride-website.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s2" name="num" />
-                        <label class="seven-labels" for="s2"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/ride/ride-register.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s3" name="num" />
-                        <label class="seven-labels" for="s3"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/ride/ride-open-ride-register.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s4" name="num" />
-                        <label class="seven-labels" for="s4"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/ride/ride-mobile.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s5" name="num" />
-                        <label class="seven-labels" for="s5"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/ride/ride-mobile-filters.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s6" name="num" />
-                        <label class="seven-labels" for="s6"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/ride/ride-av.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s7" name="num" />
-                        <label class="seven-labels" for="s7"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/ride/ride-service-design.png" />
-                        </a>
-                    </li>
-                </ul>
+
+                <div class="clearfix rslides-container">
+                    <ul class="rslides">
+                        <li><img src="../imgs/project-imgs/ride/ride-website.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/ride/ride-register.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/ride/ride-open-ride-register.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/ride/ride-mobile.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/ride/ride-mobile-filters.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/ride/ride-av.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/ride/ride-service-design.png" alt=""></li>
+                    </ul>
+                </div>
                 
                 <h2>Problem Space</h2>
                 <p>I identified a large gap in successful transportation services for people who are income insecure, especially for unplanned trips. Without reliable, affordable transportation, income insecure people are at risk for missing important appointments, job opportunities, or incurring unmanageable expenses to meet their needs.</p>

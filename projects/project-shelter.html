@@ -9,7 +9,8 @@
         <link type='text/css' rel='stylesheet' href="../css/reset.css" />
         <link type='text/css' rel='stylesheet' href="../css/styles.css" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/responsiveslides.min.js"></script>
         <script type="text/javascript" src="../js/basic.js"></script>
     </head>
     <body>
@@ -47,36 +48,14 @@
                 
                 <p>We wanted to create an interactive exhibit that evoked strong emotions and challenged people to think deeply about police killings. We created our own gazebo using wood, fabric, and rope. We then projected down a series of police shooting descriptions taken from <a href="http://mappingpoliceviolence.org/">Mapping Police Violence</a>. When people approached or walked inside the gazebo the text descriptions blacked out, obstructing the viewers ability to read the description.</p>
                 
-                <ul id="css3-slider" class="shelter">
-                    <li>
-                        <input type="radio" id="s1" name="num" checked="true" />
-                        <label class="four-labels" for="s1"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/shelter/shelter.jpg" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s2" name="num" />
-                        <label class="four-labels" for="s2"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/shelter/shelter-blurry.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s3" name="num" />
-                        <label class="four-labels" for="s3"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/shelter/shelter-blacking-out.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s4" name="num" />
-                        <label class="four-labels" for="s4"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/shelter/shelter-blacked-out.png" />
-                        </a>
-                    </li>
-                </ul>
+                <div class="clearfix rslides-container">
+                    <ul class="rslides">
+                        <li><img src="../imgs/project-imgs/shelter/shelter.jpg" alt=""></li>
+                        <li><img src="../imgs/project-imgs/shelter/shelter-blurry.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/shelter/shelter-blacking-out.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/shelter/shelter-blacked-out.png" alt=""></li>
+                    </ul>
+                </div>
 
                 <h2>Problem Space</h2>
                 <p>How might we design an interactive installation that evokes feelings and motivates community action to address police violence in America?</p>

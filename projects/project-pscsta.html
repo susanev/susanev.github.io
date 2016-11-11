@@ -9,7 +9,8 @@
         <link type='text/css' rel='stylesheet' href="../css/reset.css" />
         <link type='text/css' rel='stylesheet' href="../css/styles.css" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/responsiveslides.min.js"></script>
         <script type="text/javascript" src="../js/basic.js"></script>
     </head>
     <body>
@@ -44,36 +45,15 @@
                 <h2>Project Summary</h2>
                 <p>In a team of 4, we redesigned the Puget Sound Computer Science Teachers Association's website using the user-centered design process. I completed user research, built the information architecture, prototyped, conducted usability studies, iterated, and completed development using Wordpress.</p>
                 
-                <ul id="css3-slider" class="laptop">
-                    <li>
-                        <input type="radio" id="s1" name="num" checked="true" />
-                        <label class="four-labels" for="s1"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/pscsta/pscsta.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s2" name="num" />
-                        <label class="four-labels" for="s2"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/pscsta/pscsta-teacher-persona.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s3" name="num" />
-                        <label class="four-labels" for="s3"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/pscsta/pscsta-student-persona.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s4" name="num" />
-                        <label class="four-labels" for="s4"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/pscsta/pscsta-paper-prototype.png" />
-                        </a>
-                    </li>
-                </ul>
+
+                <div class="clearfix rslides-container">
+                    <ul class="rslides">
+                        <li><img src="../imgs/project-imgs/incloodle/incloodle.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/pscsta/pscsta-teacher-persona.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/pscsta/pscsta-student-persona.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/pscsta/pscsta-paper-prototype.png" alt=""></li>
+                    </ul>
+                </div>
                 
                 <h2>Problem Space</h2>
                 <p>The Puget Sound Computer Science Teachers Association had been operating for a few years and were using Blogger for their website needs. Unfortunately, they began hosting student events and were having trouble maintaining the website and using it for student registration and tracking teacher workshops.</p>

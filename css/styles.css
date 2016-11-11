@@ -600,6 +600,74 @@ label, #user-msg {
     border: 1px solid #dedede;
 }
 
+/* responsive slides styles */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+ul.rslides {
+    margin-bottom: 8px;
+}
+
+.rslides img {
+    margin-bottom: 0;
+}
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+.rslides_tabs {
+    width: 210px;
+    height: 25px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.rslides_tabs li {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+    float: left;
+    margin-right: 10px;
+}
+
+li.rslides_here {
+    background-color: #777777;
+}
+
+.rslides_tabs li a{
+    color: transparent;
+    border-bottom: none;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
 /* slideshow styles */
 #css3-slider {
     margin:40px auto;
@@ -628,135 +696,6 @@ label, #user-msg {
 .laptop {
     height: 338px;
 }
-
-#css3-slider li {
-  list-style:none;
-  margin:0px 0px;
-  padding:0px 0px;
-}
-
-/* Navigation */
-#css3-slider li input + label {
-  position:absolute;
-  bottom:-32px;
-  left:10px;
-  z-index:999;
-  background-color:#CCCCCC;
-  padding:0px 0px;
-  width:18px;
-  height:18px;
-  text-align:center;
-  cursor:pointer;
-  border-radius: 16px;
-}
-
-.five-labels {
-    margin: 0px 225px;
-}
-
-.six-labels {
-   margin: 0px 210px; 
-}
-
-.seven-labels {
-    margin: 0px 205px; 
-}
-
-ul.include-bullets {
-    list-style-type: circle;
-    list-style: inside;
-    padding-left: 20px;
-}
-
-.four-labels {
-    margin: 0px 230px;
-}
-
-#css3-slider li:nth-child(2) label {left:38px;}
-#css3-slider li:nth-child(3) label {left:66px;}
-#css3-slider li:nth-child(4) label {left:94px;}
-#css3-slider li:nth-child(5) label {left:122px;}
-#css3-slider li:nth-child(6) label {left:150px;}
-#css3-slider li:nth-child(7) label {left:178px;}
-
-/* Images */
-#css3-slider li img {
-  border:none;
-  outline:none;
-  position:absolute;
-  top:50%;
-  left:50%;
-  width:0px;
-  height:0px;
-  visibility:hidden;
-  opacity:0;
-/*   -webkit-transition:all 2s ease-in-out;
-  -moz-transition:all 2s ease-in-out;
-  -ms-transition:all 2s ease-in-out;
-  -o-transition:all 2s ease-in-out;
-  transition:all 2s ease-in-out; */
-  -webkit-transform:rotate(0deg) scale(1);
-  -moz-transform:rotate(0deg) scale(1);
-  -ms-transform:rotate(0deg) scale(1);
-  -o-transform:rotate(0deg) scale(1);
-  transform:rotate(0deg) scale(1);
-}
-
-/* Active navigation */
-#css3-slider li input:checked + label {
-  background-color:#777777;
-}
-
-/* Show the image with transition */
-#css3-slider li input:checked ~ img,
-#css3-slider li input:checked ~ a img {
-    top:0%;
-    left:0%;
-    width:588px;
-/*    height:356px;*/
-    visibility:visible;
-    -webkit-transform:rotate(0deg) scale(1);
-    -moz-transform:rotate(0deg) scale(1);
-    -ms-transform:rotate(0deg) scale(1);
-    -o-transform:rotate(0deg) scale(1);
-    transform:rotate(0deg) scale(1);
-    opacity:1;
-    z-index:99;
-}
-
-#css3-slider.tablet li input:checked ~ img,
-#css3-slider.tablet li input:checked ~ a img,
-#css3-slider.slides li input:checked ~ img,
-#css3-slider.slides li input:checked ~ a img {
-    height:356px;
-}
-
-
-#css3-slider.ipad li input:checked ~ img,
-#css3-slider.ipad li input:checked ~ a img {
-    height: 415px;
-}
-
-#css3-slider.ride li input:checked ~ img,
-#css3-slider.ride li input:checked ~ a img {
-    height: 350px;
-}
-
-#css3-slider.shelter li input:checked ~ img,
-#css3-slider.shelter li input:checked ~ a img {
-    height: 444px;
-}
-
-#css3-slider.laptop li input:checked ~ img,
-#css3-slider.laptop li input:checked ~ a img {
-    height: 338px;
-}
-
-/* Hide the radio */
-#css3-slider input {
-    display:none;
-}
-
 
 /* media queries */
 @media screen and (max-width: 1209px) {

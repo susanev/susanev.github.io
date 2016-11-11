@@ -9,7 +9,8 @@
         <link type='text/css' rel='stylesheet' href="../css/reset.css" />
         <link type='text/css' rel='stylesheet' href="../css/styles.css" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/responsiveslides.min.js"></script>
         <script type="text/javascript" src="../js/basic.js"></script>
     </head>
     <body>
@@ -43,37 +44,15 @@
             <div class="two-thirds project-details">
                 <h2>Project Summary</h2>
                 <p>Incloodle is an iPad app that was designed and developed by Kiley Sobel and Kyle Rector at the University of Washington to support children with and without disabilities with inclusion during play. I joined their team to conduct usability studies, evaluate the app, and contribute to the research report presented at the 2016 ACM Conference on Human Factors in Computing Systems (CHI) conference.</p>
-                
-                <ul id="css3-slider" class="ipad">
-                    <li>
-                        <input type="radio" id="s1" name="num" checked="true" />
-                        <label class="four-labels" for="s1"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/incloodle/incloodle.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s2" name="num" />
-                        <label class="four-labels" for="s2"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/incloodle/incloodle-interface1.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s3" name="num" />
-                        <label class="four-labels" for="s3"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/incloodle/incloodle-interface2.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <input type="radio" id="s4" name="num" />
-                        <label class="four-labels" for="s4"></label>
-                        <a href="javascript:void(0);">
-                            <img src="../imgs/project-imgs/incloodle/incloodle-study-setup.png" />
-                        </a>
-                    </li>
-                </ul>
+
+                <div class="clearfix rslides-container">
+                    <ul class="rslides">
+                        <li><img src="../imgs/project-imgs/incloodle/incloodle.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/safer-conception/safer-conception-sketch1.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/incloodle/incloodle-interface2.png" alt=""></li>
+                        <li><img src="../imgs/project-imgs/incloodle/incloodle-study-setup.png" alt=""></li>
+                    </ul>
+                </div>
                 
                 <h2>Problem Space</h2>
                 <p>Incloodle is an iPad app designed to allow two children to play inclusively together, focusing on social and emotional learning between the children. Together, the children take pictures of themselves, or other objects guided by the app.</p>
