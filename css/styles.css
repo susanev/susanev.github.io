@@ -667,35 +667,6 @@ li.rslides_here {
     height: 25px;
 }
 
-/* slideshow styles */
-#css3-slider {
-    margin:40px auto;
-    margin-bottom: 65px;
-    width:588px;
-    padding:0px 0px;
-    position:relative;
-}
-
-.tablet, .slides {
-    height:356px;
-}
-
-.ipad {
-    height: 415px;
-}
-
-.ride {
-    height: 350px;
-}
-
-.shelter {
-    height: 444px;
-}
-
-.laptop {
-    height: 338px;
-}
-
 /* media queries */
 @media screen and (max-width: 1209px) {
     article {
