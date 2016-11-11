@@ -711,7 +711,7 @@ li.rslides_here {
     }
 }
 
-@media screen and (max-width: 975px) {  
+@media screen and (max-width: 990px) {  
     article {
         width: 100%;
         margin: 0;
