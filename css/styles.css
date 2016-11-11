@@ -641,9 +641,8 @@ ul.rslides {
   border: 0;
 }
 .rslides_tabs {
-    width: 210px;
+    text-align: center;
     height: 25px;
-    margin: 0 auto;
     margin-bottom: 20px;
 }
 
@@ -652,7 +651,7 @@ ul.rslides {
     height: 25px;
     border-radius: 50%;
     background-color: #CCCCCC;
-    float: left;
+    display: inline-block;
     margin-right: 10px;
 }
 
