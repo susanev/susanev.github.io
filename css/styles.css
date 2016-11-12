@@ -926,17 +926,17 @@ li.rslides_here {
     }
     
     .social-media {
-        width: 165px;
+        width: 168px;
         margin: 30px auto;
     }
     
     div.social-media a {
-        width: 45px;
-        height: 45px;
+        width: 46px;
+        height: 46px;
     }
     
     .social-github {
-        background-position: -49px;
+        background-position: -65px;
     }
 
     div.social-media a.social-twitter {
@@ -944,5 +944,6 @@ li.rslides_here {
     }
 
     .social-linkedin {
-        background-position: -99px;
+        background-position: -131px;
     }
+}
