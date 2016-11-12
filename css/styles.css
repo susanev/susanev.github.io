@@ -407,7 +407,7 @@ a.social-twitter {
 }
 
 .logo {
-    background-size: 60%;
+    background-size: 50%;
 }
 
 .png {
@@ -898,7 +898,7 @@ li.rslides_here {
 
 @media screen and (max-width: 460px) {
     .logo {
-        background-size: 60%;
+        background-size: 50%;
     }
     
     .png {
