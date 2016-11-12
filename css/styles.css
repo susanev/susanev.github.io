@@ -340,7 +340,7 @@ div.social-media a {
 .social-github {
     background: url('../imgs/svg/social-icons.svg') no-repeat;
     background-size:cover;
-    background-position: -52px;
+    background-position: -52px 0;
 }
 
 a.social-twitter {
@@ -352,7 +352,7 @@ a.social-twitter {
 .social-linkedin {
     background: url('../imgs/svg/social-icons.svg') no-repeat;
     background-size:cover;
-    background-position: -104px;
+    background-position: -104px 0;
 }
 
 /* about styles */
@@ -931,17 +931,22 @@ li.rslides_here {
     }
     
     .social-media {
-        width: 168px;
+        width: 176px;
         margin: 30px auto;
     }
     
     div.social-media a {
         width: 46px;
         height: 46px;
+        display: inline-block;
+    }
+
+    .social-github, .social-linkedin {
+        background-size: 176px;
     }
     
     .social-github {
-        background-position: -65px;
+        background-position: -65px 0;
     }
 
     div.social-media a.social-twitter {
@@ -949,6 +954,6 @@ li.rslides_here {
     }
 
     .social-linkedin {
-        background-position: -131px;
+        background-position: -131px 0;
     }
 }
