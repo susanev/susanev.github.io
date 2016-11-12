@@ -8,9 +8,11 @@ function toggleNav() {
         $('#line1').attr('class', 'no-rotate');
         $('#line2').attr('class', 'no-rotate');
         $('#line3').attr('class', 'no-rotate');
+        $('#menuText').show();
         displayNav = false;
     }
     else {
+        $('#menuText').hide();
         $('#line1').attr('class', 'line1-rotate');
         $('#line2').attr('class', 'line2-rotate');
         $('#line3').attr('class', 'line3-rotate');
@@ -22,10 +24,10 @@ function toggleNav() {
     remove hamburger; else show hamburger
 */
 $(window).resize(function() {
-    if($(window).width() > 973){
+    if ($(window).width() > 973) {
         $('#mainNav').show();
         displayNav = false;
-    }else if(!displayNav){
+    } else if(!displayNav) {
         $('#mainNav').hide();
         $('#line1').attr('class', 'no-rotate');
         $('#line2').attr('class', 'no-rotate');
