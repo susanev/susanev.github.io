@@ -46,6 +46,11 @@ input, p, a, li {
     font-family: "Crimson+Text", Arial, sans-serif;
 }
 
+.project-details p {
+    font-family: Georgia, Arial, sans-serif;
+    line-height: 30px;
+}
+
 /* clearfix styles */
 .clearfix:before,
 .clearfix:after {
@@ -145,7 +150,14 @@ h4 {
 
 .project-page p, .project-page li {
     font-size: 18px;
+}
+
+.project-page li {
     line-height: 24px;
+}
+
+.project-page p {
+    line-height: 28px;
 }
 
 .project-page p {
