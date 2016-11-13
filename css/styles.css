@@ -30,11 +30,13 @@ header {
 }
 
 /* font styles */
-nav a, h1, h2, h3, h4, h5, label, .about p, .name p, #user-msg {
+nav a, h1, h2, h3, h4, h5, label, 
+    .about p, .name p, #user-msg {
     color: #212121;
 }
 
-nav a, h1, h2, h3, h4, h5, label, .about p, .about a, .name p, #user-msg {
+nav a, h1, h2, h3, h4, h5, label, 
+    .about p, .about a, .name p, #user-msg {
     font-family: Montserrat, Arial, sans-serif;
 }
 
@@ -350,19 +352,22 @@ div.social-media a {
 }
 
 .social-github {
-    background: url('../imgs/svg/social-icons.svg') no-repeat;
+    background: url('../imgs/svg/social-icons.svg') 
+        no-repeat;
     background-size:cover;
     background-position: -52px 0;
 }
 
 a.social-twitter {
-    background: url('../imgs/svg/social-icons.svg') no-repeat;
+    background: url('../imgs/svg/social-icons.svg') 
+        no-repeat;
     background-size:cover;
     margin-right: 0;
 }
 
 .social-linkedin {
-    background: url('../imgs/svg/social-icons.svg') no-repeat;
+    background: url('../imgs/svg/social-icons.svg') 
+        no-repeat;
     background-size:cover;
     background-position: -104px 0;
 }
@@ -435,7 +440,8 @@ a.social-twitter {
 }
 
 .art-guide {
-    background-image: url('../imgs/project-imgs/art-guide/art-guide.png'); 
+    background-image: 
+        url('../imgs/project-imgs/art-guide/art-guide.png'); 
 }
 
 .safer-conception {
@@ -451,11 +457,13 @@ a.social-twitter {
 }
 
 .ride-img {
-    background-image: url('../imgs/project-imgs/ride/ride-website.png');
+    background-image: 
+        url('../imgs/project-imgs/ride/ride-website.png');
 }
 
 .incloodle {
-    background-image: url('../imgs/project-imgs/incloodle/incloodle.png');
+    background-image: 
+        url('../imgs/project-imgs/incloodle/incloodle.png');
     background-size: 75%;
 }
 
@@ -510,12 +518,14 @@ a.social-twitter {
     margin-bottom: 5px;    
 }
 
-.line1-rotate, .line2-rotate, .line3-rotate, .no-rotate {
+.line1-rotate, .line2-rotate, .line3-rotate, 
+    .no-rotate {
     -webkit-transition: transform 0.2s ease-in-out;
 }
 
 .no-rotate {
-    transform: rotate(0deg) translate(0, 0) scale(1, 1);
+    transform: rotate(0deg) translate(0, 0) 
+        scale(1, 1);
     opacity: 1;
 }
 
