@@ -48,7 +48,7 @@ input, p, a, li {
     font-family: "Crimson+Text", Arial, sans-serif;
 }
 
-.project-details p {
+.project-details p, .project-details a {
     font-family: Georgia, Arial, sans-serif;
     line-height: 30px;
 }
