@@ -1,11 +1,12 @@
 /*.dark-primary-color    { background: #00796B; }
-.default-primary-color { background: #009688; }
-.light-primary-color   { background: #B2DFDB; }
-.text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #00BCD4; }
+.dark-primary-color    { background: #616161; }
+.default-primary-color { background: #9E9E9E; }
+.light-primary-color   { background: #F5F5F5; }
+.text-primary-color    { color: #212121; }
+.accent-color          { background: #CDDC39; }
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #757575; }
-.divider-color         { border-color: #BDBDBD; }*/
+.divider-color         { border-color: #BDBDBD; }
 
 /* document styles */
 * {
@@ -28,12 +29,16 @@ article {
     margin: 40px auto;
     padding: 40px;
     background-color: #fff;
-    border-top: 20px solid #009688;
+    border-top: 20px solid #CDDC39;
 }
 
 header {
     background-color: #fff;
     padding: 20px 0 30px 0;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 /* font styles */
@@ -188,17 +193,17 @@ nav ul li.last {
 
 nav a {
     border-bottom: none;
-    color: #009688;
+    color: #616161;
 }
 
 nav a.active {
-    border-bottom: 5px solid #009688;
+    border-bottom: 5px solid #616161;
 }
 
 nav a:hover {
-    border-bottom: 5px solid #009688;
+    border-bottom: 5px solid #616161;
     text-decoration: none;
-    color: #009688;
+    color: #616161;
 }
 
 /* footer styles */
@@ -252,12 +257,16 @@ footer p {
 .button {
     margin: 20px 0 20px 0;
     padding: 20px 30px;
-    background-color: #009688;
+    background-color: #616161;
     color: #fff;
     font-size: 18px;
     border-radius: 15px;
     width: 240px;
     height: 60px;
+}
+
+.button:hover {
+	background-color: #00796B;
 }
 
 .social-media {
@@ -301,6 +310,10 @@ a.social-twitter {
         no-repeat;
     background-size:cover;
     background-position: -104px 0;
+}
+
+svg:hover #github {
+	fill: #000;
 }
 
 /* about styles */
@@ -408,12 +421,12 @@ a.social-twitter {
 
 .project-info {
     padding: 15px;
-    background-color: #009688;
+    background-color: #CDDC39;
     border-radius: 0 0 3px 3px;
 }
 
 .project-info h3, .project-info p {
-    color: #fff;
+    color: #212121;
 }
 
 
@@ -526,6 +539,10 @@ input:focus, textarea:focus {
     line-height: 24px;
 }
 
+.contact form {
+	margin-top: 20px;
+}
+
 label, #user-msg {
     font-size: 20px;
 }
@@ -538,7 +555,7 @@ label, #user-msg {
 
 .name p {
     text-transform: uppercase;
-    color: #009688;
+    color: #616161;
     font-size: 64px;
 }
 
@@ -647,6 +664,55 @@ div.skills {
 	padding: 0;
 }
 
+.education, .skills {
+	padding: 0;
+}
+
+.work-exp {
+	margin-top: 30px;
+}
+
+.resume h3,
+.intro-block h2,
+.work-exp h4 {
+	font-weight: 600;
+}
+
+.work-exp h4 {
+	margin-bottom: 5px;
+}
+
+.intro-block h2 {
+	font-size: 48px;
+}
+
+.ed-type {
+	margin-bottom: 20px;
+}
+
+.ed-type p {
+	margin-top: 5px;
+}
+
+.work-exp div {
+	margin-bottom: 15px;
+}
+
+.work-exp p {
+	line-height: 22px;
+}
+
+.resume p {
+	max-width: 400px;
+}
+
+.resume .when {
+	font-size: .8em;
+}
+
+.resume .where {
+	font-size: 1.1em;
+}
 
 /* media queries */
 @media screen and (max-width: 1209px) {
@@ -676,7 +742,7 @@ div.skills {
     }
 
     .projects a:nth-of-type(3n) .project-img {
-        background-color: #009688;
+        background-color: #616161;
     }
 
     .projects a:nth-of-type(3n) .project-info {
@@ -881,4 +947,12 @@ div.skills {
     .social-linkedin {
         background-position: -131px 0;
     }
+
+    .work-exp {
+			margin-top: 10px;
+		}
+
+		.skills div:nth-of-type(2n) {
+			margin-top: 15px;
+		}
 }
