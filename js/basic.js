@@ -1,3 +1,13 @@
+$(document).ready(function() {
+	$('#ride').click(function() {
+		window.location.href= './projects/project-ride.html';
+	});
+
+	$('#safer-conception').click(function() {
+		window.location.href= './projects/project-safer-conception.html';
+	});
+});
+
 var displayNav = false;
 
 /* toggles the hamburger menu when clicked */
