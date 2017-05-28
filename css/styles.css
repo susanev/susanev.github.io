@@ -1,13 +1,3 @@
-/*.dark-primary-color    { background: #00796B; }
-.dark-primary-color    { background: #616161; }
-.default-primary-color { background: #9E9E9E; }
-.light-primary-color   { background: #F5F5F5; }
-.text-primary-color    { color: #212121; }
-.accent-color          { background: #00BCD4; }
-.primary-text-color    { color: #212121; }
-.secondary-text-color  { color: #757575; }
-.divider-color         { border-color: #BDBDBD; }
-
 /* document styles */
 * {
     box-sizing: border-box;
@@ -60,25 +50,6 @@ input, p, a, li {
     font-family: "Crimson+Text", Arial, sans-serif;
 }
 
-.col-xs-1, .col-sm-1, .col-md-1,
-.col-lg-1, .col-xs-2, .col-sm-2,
-.col-md-2, .col-lg-2, .col-xs-3,
-.col-sm-3, .col-md-3, .col-lg-3,
-.col-xs-4, .col-sm-4, .col-md-4,
-.col-lg-4, .col-xs-5, .col-sm-5,
-.col-md-5, .col-lg-5, .col-xs-6,
-.col-sm-6, .col-md-6, .col-lg-6,
-.col-xs-7, .col-sm-7, .col-md-7,
-.col-lg-7, .col-xs-8, .col-sm-8,
-.col-md-8, .col-lg-8, .col-xs-9,
-.col-sm-9, .col-md-9, .col-lg-9,
-.col-xs-10, .col-sm-10, .col-md-10,
-.col-lg-10, .col-xs-11, .col-sm-11,
-.col-md-11, .col-lg-11, .col-xs-12,
-.col-sm-12, .col-md-12, .col-lg-12 {
-    /*padding: 0;*/
-}
-
 .row {
 	margin: 0 10px;
 }
@@ -101,11 +72,13 @@ input, p, a, li {
 
 /* headings */
 h1 {
-    font-size: 48px; 
+    font-size: 42px; 
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 28px;
     margin: 20px 0 5px 0;
 }
 
@@ -142,13 +115,6 @@ h4 {
 .about-3 a {
     border-bottom: 5px solid #03A9F4;
 }
-
-/*
-.breadcrumb {
-    margin: 17px 0 0 50px;
-    font-size: 18px;
-}
-*/
 
 #mainNav {
     margin-top: 4px;
@@ -371,18 +337,6 @@ svg:hover #github {
     margin-bottom: 35px;
 }
 
-.logo {
-    background-size: 50%;
-}
-
-.ubi {
-    background-image: url('../imgs/project-imgs/ubi/ubi.svg'); 
-}
-
-.liy {
-    background-image: url('../imgs/project-imgs/liy/liy.svg'); 
-}
-
 .art-guide {
     background-image: 
         url('../imgs/project-imgs/art-guide/art-guide.png'); 
@@ -394,35 +348,16 @@ svg:hover #github {
 }
 
 .safer-conception {
-    background-image: url('../imgs/project-imgs/safer-conception/safer-conception.png');
+    background-image: url('../imgs/project-imgs/safer-conception/safer-conception-linear-view.png');
 }
 
 .oop {
     background-image: url('../imgs/project-imgs/oop.svg');
 }
 
-.pscsta {
-    background-image: url('../imgs/project-imgs/pscsta/pscsta.png');
-}
-
-.heart {
-    background-image: url('../imgs/project-imgs/heart/heart.png');
-}
-
 .ride-img {
     background-image: 
         url('../imgs/project-imgs/ride/new-project-img.png');
-}
-
-.incloodle {
-    background-image: 
-        url('../imgs/project-imgs/incloodle/incloodle.png');
-    background-size: 75%;
-}
-
-.shelter-img {
-    background-image: url('../imgs/project-imgs/shelter/shelter-blacking-out.png');
-    background-size: 75%;
 }
 
 .project-info {
@@ -434,11 +369,6 @@ svg:hover #github {
 .project-info h3, .project-info p {
     color: #fff;
 }
-
-
-/*.projects {
-    margin: 20px 0;
-}*/
 
 .project-info h3 {
     font-size: 18px;
@@ -468,7 +398,6 @@ svg:hover #github {
 
 #line1, #line2, #line3 {
     border-bottom: 5px solid #212121;
-/*    border-radius: 4px;*/
     margin-bottom: 5px;    
 }
 
@@ -563,6 +492,7 @@ label, #user-msg {
     text-transform: uppercase;
     color: #212121;
     font-size: 64px;
+    font-weight: 600;
 }
 
 .tres-last {
@@ -724,48 +654,12 @@ footer {
     width: 100%;
 }
 
+.project-details {
+    padding-right: 60px;
+}
+
 /* media queries */
-@media screen and (max-width: 1209px) {
-/*    article {
-        margin: 7%;
-        width: 85%;
-    }
-    
-    .project {
-        width: 48%;
-    }*/
-
-    .projects a:nth-of-type(3n - 2) .project-img {
-        background-color: #03A9F4;
-    }
-
-    .projects a:nth-of-type(3n - 2) .project-info {
-        background-color: #008394;
-    }
-
-    .projects a:nth-of-type(3n - 1) .project-img {
-        background-color: #46B3A8;
-    }
-
-    .projects a:nth-of-type(3n - 1) .project-info {
-        background-color: #00796B;
-    }
-
-    .projects a:nth-of-type(3n) .project-img {
-        background-color: #616161;
-    }
-
-    .projects a:nth-of-type(3n) .project-info {
-        background-color: #8F9A27;
-    }
-    
-    .tres-last {
-        margin-right: 30px;
-    }
-    .duo-last {
-        margin-right: 0;
-    }
-    
+@media screen and (max-width: 1209px) {  
     #mainNav {
         display: block;
     }
@@ -773,10 +667,6 @@ footer {
     .hamburger {
         display: none;
     }
-    
-/*    .logo {
-        width: 95%;
-    }*/
     
     #mainNav ul {
         padding-top: 10px;
@@ -794,26 +684,12 @@ footer {
 
 @media screen and (max-width: 990px) {  
     article {
-/*        width: 100%;
-*/        margin: 0;
+        margin: 0;
     }
     
     .project  {
-/*        width: 100%;*/
         margin-top: 60px;
     }
-    
-    .logo {
-        background-size: 25%;
-    }
-
-/*    .png {
-        background-size: 40%;
-    }*/
-    
-/*    .projects {
-        margin: 0;
-    }*/
     
     #mainNav {
         width: 100%;
@@ -849,25 +725,11 @@ footer {
     .about {
         background-image: url('../imgs/background.jpg');
     }
-    
-    article h1 {
-        display: inline;
-        padding: 0;
-    }
-    
+
     article {
         width: 100%;
         padding: 40px 40px;
     }
-
-    
-    .logo {
-        background-size: 40%;
-    }
-
-/*    .png {
-        background-size: 60%;
-    }*/
     
     .project {
         margin-right: 0;
@@ -895,17 +757,13 @@ footer {
     .project-details, .project-facts {
         width: 100%;
     }
+
+    .project-details {
+        padding-right: 15px;
+    }
 }
 
 @media screen and (max-width: 460px) {
-    .logo {
-        background-size: 50%;
-    }
-    
-/*    .png {
-        background-size: 80%;
-    }*/
-    
     .about-1 {
         font-size: 100px;
     }
@@ -959,10 +817,10 @@ footer {
     }
 
     .work-exp {
-			margin-top: 10px;
-		}
+		margin-top: 10px;
+	}
 
-		.skills div:nth-of-type(2n) {
-			margin-top: 15px;
-		}
+	.skills div:nth-of-type(2n) {
+		margin-top: 15px;
+	}
 }

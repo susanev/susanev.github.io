@@ -1,10 +1,10 @@
 $(document).ready(function() {
 	$('#ride').click(function() {
-		window.location.href= './projects/project-ride.html';
+		window.location.href= './projects/ride.html';
 	});
 
 	$('#safer-conception').click(function() {
-		window.location.href= './projects/project-safer-conception.html';
+		window.location.href= './projects/conception-tracking.html';
 	});
 });
 

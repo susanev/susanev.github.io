@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project: Conception Tracking</title>
+        <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="./imgs/favicon.ico" type="image/x-icon">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic' rel='stylesheet' type='text/css'>
+        <link type='text/css' rel='stylesheet' href="./../css/reset.css" />
+        <link type='text/css' rel='stylesheet' href="./../css/styles.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./../js/basic.js"></script>
+    </head>
+    </head>
+    <body>
+        <header class="clearfix">
+            <a href="./../index.html"><div class="name">
+                <p>Susan Evans</p>
+            </div></a>
+            <div class="hamburger" onclick="toggleNav()">
+                <div id="line1" class="no-rotate"></div>
+                <div id="line2" class="no-rotate"></div>
+                <div id="line3" class="no-rotate"></div>
+                <div><p id="menuText">Menu</p></div>
+            </div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="../index.html">Portfolio</a></li>
+                    <li><a href="../resume.html">R&eacute;sum&eacute;</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li class="last"><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <article class="container clearfix project-page">
+            <div class="row">
+                <div class="col-sm-9 col-xs-12 project-details">
+                    <h1>Conception Tracking</h1>
+                    <h2>Project Summary</h2>
+                    <p>Informed by user research, I designed a tablet prototype for clinicians to use to help serodiscordant couples (one partner living with HIV) safely conceive children. The prototype displayed the couples data visually while also providing information on the woman's fertility cycle and the viral load of the partner living with HIV. The goal of the project was to build a fully interactive prototype that could be used on site in Kenya and Uganda during usability studies with clinicians.</p>
+
+                    <img src="./../imgs/project-imgs/safer-conception/safer-conception-linear-view.png" />
+                    
+                    <div>
+                        <h2>Problem Space</h2>
+                        <p>Many serodiscordant couples in Kenya and Uganda want to have children, but unfortunately the clinicians struggle with informing the couples  when it is safest to conceive.</p>
+                        
+                        <p>How might we develop an app to better support the clinicians when  providing tools and education about the safest times to conceive?</p>
+                        
+                        <h2>Process</h2>
+                        <p>I started by researching and learning about the fertility cycle and treatment of HIV by reading relevant literature, interviewing clinicians, and viewing presentations about how the clinics operate. Next, I completed a comparative analysis of apps currently on the market that track both fertility and medication.</p>
+                        
+                        <p>After researching I began sketching and paper prototyping solutions.</p>
+
+                        <img src="./../imgs/project-imgs/safer-conception/safer-conception-sketch2.png" />
+
+                        <p>Exploring options with a circular fertility chart, which is something adopted by many competititos. A pill icon notes if the HIV medication (<a target="_blank" href="https://en.wikipedia.org/wiki/Pre-exposure_prophylaxis">PrEP</a>, and <a target="_blank" href="https://en.wikipedia.org/wiki/Management_of_HIV/AIDS">ART</a>) was taken, and different patterns indicate the woman's mentstral cycle, and the best days to conceive. Tapping on a section would display a detailed view of that particular day.</p>
+
+                        <p>I also explored a linear view with a snapshot of the most important information related to the HIV medication. Summarizing the amount of pills taken across a variety of time spans and visuallu representing any missed days. </p>
+
+                        <p>After many paper-prototype iterations I built and iterated on an <a href="http://b0tbhf.axshare.com/#p=login">Axure prototype</a> that included both linear and circular views.</p>
+                        <img src="./../imgs/project-imgs/safer-conception/safer-conception.png" />
+
+                        <img src="./../imgs/project-imgs/safer-conception/safer-conception-linear-view.png" />
+
+                        <img src="./../imgs/project-imgs/safer-conception/safer-conception-cycle-view.png" />
+
+                        <img src="./../imgs/project-imgs/safer-conception/safer-conception-PREP.png" />
+                        <p>Throughout the prototyping process we ran small feedback sessions and usability students to ensure it was ready for use in the usability studies in Africa. For example, I learned that the clinicians tracked the couple as a unit and not individuals, so I built each page to represent a snapshot of the couple's information.</p>
+                        
+                        <h2>Results</h2>
+                        <p>The app was successfully brought to Africa and resulted in valuable usability feedback, the app was then brought to development.</p>
+                        <p>I co-authored a peer-reviewed paper for the 2015 Wireless Health conference, titled "Prototype Development for a Clinic-Based Mobile Health Tablet Application for Kenyan HIV-1 Serodiscordant Couples Using Safer Conception Strategies".</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-12 project-facts">   
+                    <h3>Date</h3>
+                    <p>Early 2015</p>
+                    
+                    <h3>Links</h3>
+                    <ul><li><a href="http://b0tbhf.axshare.com/#p=login">Axure Prototype</a></li><li><a href="http://grantome.com/grant/NIH/R21-TW009908-01">Grant Abstract</a></li></ul>
+                    
+                    <h3>Tasks</h3>
+                    <ul><li>User Research</li>
+                    <li>Competitive Analysis</li>
+                    <li>Prototyping</li></ul>
+                    
+                    <h3>Tools</h3>
+                    <ul><li>Axure</li>
+                    <li>Beanstalk</li></ul>
+                </div>
+            </div>
+        </article>
+
+        <article class="container">
+            <div class="row">
+                <h1>More Projects</h1>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="project">
+                        <div class="project-img-cont">
+                            <div class="project-img png oop"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Health Insurance Visualizations</h3>
+                            <p>User research, Interaction design, Development</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div id="ride" class="project">
+                        <div class="project-img-cont">
+                            <div class="project-img ride-img"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Autonomous Vehicle System</h3>
+                            <p>User research, Interaction Design, Prototyping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div id="art-guide" class="project">
+                        <div class="project-img-cont">
+                            <div class="project-img art-guide"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Art Guide Redesign</h3>
+                            <p>User research, Prototyping, Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <footer class="clearfix">
+            <div class="half-last">
+                <ul class="footer-nav">
+                    <li><a href="../index.html">Portfolio</a></li>
+                    <li><a href="../resume.html">Resume</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="half">
+                <p>This is the online portfolio of Susan Evans&mdash;a Full-stack Designer, and Computer Science educator.</p>
+                <a href="http://twitter.com/susanrevans"><img src="" /></a>
+                <p class="copyright">&copy; Copyright Susan Evans. All rights reserved.</p>
+        
+                <div class="social-media">
+                    <a class="social-github" href="http://github.com/susanev"></a>
+                    <a class="social-linkedin" href="http://www.linkedin.com/in/susanev"></a>
+                    <a class="social-twitter" href="http://twitter.com/susanrevans"></a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
