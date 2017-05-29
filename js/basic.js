@@ -1,11 +1,21 @@
-$(document).ready(function() {
-	$('#ride').click(function() {
-		window.location.href= './projects/ride.html';
-	});
+var base = "/Users/scoutdos/Documents/susanev.github.io"
 
-	$('#safer-conception').click(function() {
-		window.location.href= './projects/conception-tracking.html';
+$(document).ready(function() {
+    $('#health-insurance-viz').click(function() {
+        window.location.href= base + '/projects/health-insurance-visualizations.html';
+    });
+    $('#conception-tracking').click(function() {
+        window.location.href= base + '/projects/conception-tracking.html';
+    });
+	$('#autonomous-vehicle-system').click(function() {
+		window.location.href= base + '/projects/autonomous-vehicle-system.html';
 	});
+    $('#art-guide').click(function() {
+        window.location.href= base + '/projects/art-guide.html';
+    });
+    $('#ruby-curriculum').click(function() {
+        window.location.href= base + '/projects/ruby-curriculum.html';
+    });
 });
 
 var displayNav = false;
@@ -45,9 +55,6 @@ $(window).resize(function() {
     }
 });
 
-window.onload = function() {
-    // stuff to happen after load
-};
 
 /*  when submit button clicked
     check that every field is filled in
