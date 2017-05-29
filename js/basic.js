@@ -14,7 +14,7 @@ $(document).ready(function() {
         window.location.href= base + '/projects/art-guide.html';
     });
     $('#ruby-curriculum').click(function() {
-        window.location.href= base + '/projects/ruby-curriculum.html';
+        window.location.href= base + '/projects/ruby-curriculum-development.html';
     });
 });
 
