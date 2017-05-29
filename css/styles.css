@@ -223,16 +223,18 @@ footer p {
 .button {
     margin: 20px 0 20px 0;
     padding: 20px 30px;
-    background-color: #616161;
+    background-color: #00BCD4;
     color: #fff;
     font-size: 18px;
     border-radius: 15px;
     width: 240px;
     height: 60px;
+    text-decoration: none;
 }
 
 .button:hover {
-	background-color: #00796B;
+	background-color: #0097A7;
+    text-decoration: none;
 }
 
 .social-media {
@@ -614,12 +616,22 @@ div.skills {
 	font-weight: 600;
 }
 
+.resume h3 {
+    text-transform: uppercase;
+}
+
 .work-exp h4 {
 	margin-bottom: 5px;
 }
 
 .intro-block h2 {
 	font-size: 48px;
+}
+
+.intro-block h3 {
+    color: #646362;
+    font-size: 20px;
+    text-transform: none;
 }
 
 .ed-type {
@@ -658,8 +670,24 @@ footer {
     padding-right: 60px;
 }
 
+.resume h4, .resume .work-exp h5 {
+    font-weight: 600;
+    color: #646362;
+    font-size: 18px;
+}
+
+.resume .work-exp h4 {
+    color: #212121;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.resume .work-exp div:nth-of-type(3) {
+    margin-top: 30px;
+}
+
 /* media queries */
-@media screen and (max-width: 1209px) {  
+@media only screen and (max-width : 1200px) {
     #mainNav {
         display: block;
     }
@@ -682,7 +710,8 @@ footer {
     }
 }
 
-@media screen and (max-width: 990px) {  
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
     article {
         margin: 0;
     }
@@ -719,9 +748,14 @@ footer {
         width: 100px;
         font-size: 34px;
     }
+
+    .skills div:nth-of-type(2) {
+        top: 18px;
+    }
 }
 
-@media screen and (max-width: 765px) {  
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
     .about {
         background-image: url('../imgs/background.jpg');
     }
@@ -742,35 +776,8 @@ footer {
     .about-2, .about-3 {
         font-size: 39px;
     }
-}
 
-@media screen and (max-width: 585px){
-    input, textarea, form {
-        width: 100%;
-    }
-    
-    .skills .half, .skills .half-last {
-        width: 90%;
-        float: none;
-    }
-
-    .project-details, .project-facts {
-        width: 100%;
-    }
-
-    .project-details {
-        padding-right: 15px;
-    }
-}
-
-@media screen and (max-width: 460px) {
-    .about-1 {
-        font-size: 100px;
-    }
-}
-
-@media screen and (max-width: 760px) {
-    footer .half, footer .half-last {
+        footer .half, footer .half-last {
         width: 100%;
     }
     
@@ -817,10 +824,41 @@ footer {
     }
 
     .work-exp {
-		margin-top: 10px;
-	}
+        margin-top: 10px;
+    }
 
-	.skills div:nth-of-type(2n) {
-		margin-top: 15px;
-	}
+    .skills div:nth-of-type(2n) {
+        margin-top: 15px;
+    }
+
+    .skills div:nth-of-type(2) {
+        top: 0;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    input, textarea, form {
+        width: 100%;
+    }
+    
+    .skills .half, .skills .half-last {
+        width: 90%;
+        float: none;
+    }
+
+    .project-details, .project-facts {
+        width: 100%;
+    }
+
+    .project-details {
+        padding-right: 15px;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .about-1 {
+        font-size: 100px;
+    }
 }
