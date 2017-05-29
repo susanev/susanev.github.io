@@ -18,7 +18,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="./../js/basic.js"></script>
     </head>
-    </head>
     <body>
         <header class="clearfix">
             <a href="./../index.html"><div class="name">
@@ -39,7 +38,6 @@
                 </ul>
             </nav>
         </header>
-        
         <article class="container clearfix project-page">
             <div class="row">
                 <div class="col-sm-9 col-xs-12 project-details">
@@ -47,7 +45,7 @@
                     <h2>Project Summary</h2>
                     <p>Informed by user research, I designed a tablet prototype for clinicians to use to help serodiscordant couples (one partner living with HIV) safely conceive children. The prototype displayed the couples data visually while also providing information on the woman's fertility cycle and the viral load of the partner living with HIV. The goal of the project was to build a fully interactive prototype that could be used on site in Kenya and Uganda during usability studies with clinicians.</p>
 
-                    <img src="./../imgs/project-imgs/safer-conception/safer-conception-linear-view.png" />
+                    <img src="./../imgs/project-imgs/conception-tracking/main.png" />
                     
                     <div>
                         <h2>Problem Space</h2>
@@ -60,20 +58,20 @@
                         
                         <p>After researching I began sketching and paper prototyping solutions.</p>
 
-                        <img src="./../imgs/project-imgs/safer-conception/safer-conception-sketch2.png" />
+                        <img src="./../imgs/project-imgs/conception-tracking/safer-conception-sketch2.png" />
 
                         <p>Exploring options with a circular fertility chart, which is something adopted by many competititos. A pill icon notes if the HIV medication (<a target="_blank" href="https://en.wikipedia.org/wiki/Pre-exposure_prophylaxis">PrEP</a>, and <a target="_blank" href="https://en.wikipedia.org/wiki/Management_of_HIV/AIDS">ART</a>) was taken, and different patterns indicate the woman's mentstral cycle, and the best days to conceive. Tapping on a section would display a detailed view of that particular day.</p>
 
                         <p>I also explored a linear view with a snapshot of the most important information related to the HIV medication. Summarizing the amount of pills taken across a variety of time spans and visuallu representing any missed days. </p>
 
                         <p>After many paper-prototype iterations I built and iterated on an <a href="http://b0tbhf.axshare.com/#p=login">Axure prototype</a> that included both linear and circular views.</p>
-                        <img src="./../imgs/project-imgs/safer-conception/safer-conception.png" />
+                        <img src="./../imgs/project-imgs/conception-tracking/safer-conception.png" />
 
-                        <img src="./../imgs/project-imgs/safer-conception/safer-conception-linear-view.png" />
+                        <img src="./../imgs/project-imgs/conception-tracking/main.png" />
 
-                        <img src="./../imgs/project-imgs/safer-conception/safer-conception-cycle-view.png" />
+                        <img src="./../imgs/project-imgs/conception-tracking/safer-conception-cycle-view.png" />
 
-                        <img src="./../imgs/project-imgs/safer-conception/safer-conception-PREP.png" />
+                        <img src="./../imgs/project-imgs/conception-tracking/safer-conception-PREP.png" />
                         <p>Throughout the prototyping process we ran small feedback sessions and usability students to ensure it was ready for use in the usability studies in Africa. For example, I learned that the clinicians tracked the couple as a unit and not individuals, so I built each page to represent a snapshot of the couple's information.</p>
                         
                         <h2>Results</h2>
@@ -104,9 +102,9 @@
             <div class="row">
                 <h1>More Projects</h1>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="project">
+                    <div id="health-insurance-viz" class="project">
                         <div class="project-img-cont">
-                            <div class="project-img png oop"></div>
+                            <div class="project-img png health-insurance-viz"></div>
                         </div>
                         <div class="project-info">
                             <h3>Health Insurance Visualizations</h3>
@@ -115,9 +113,9 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div id="ride" class="project">
+                    <div id="autonomous-vehicle-system" class="project">
                         <div class="project-img-cont">
-                            <div class="project-img ride-img"></div>
+                            <div class="project-img autonomous-vehicle-system"></div>
                         </div>
                         <div class="project-info">
                             <h3>Autonomous Vehicle System</h3>
@@ -139,25 +137,23 @@
             </div>
         </article>
 
-        <footer class="clearfix">
-            <div class="half-last">
-                <ul class="footer-nav">
-                    <li><a href="../index.html">Portfolio</a></li>
-                    <li><a href="../resume.html">Resume</a></li>
-                    <li><a href="../about.html">About</a></li>
-                    <li><a href="../contact.html">Contact</a></li>
-                </ul>
-            </div>
-            
-            <div class="half">
-                <p>This is the online portfolio of Susan Evans&mdash;a Full-stack Designer, and Computer Science educator.</p>
-                <a href="http://twitter.com/susanrevans"><img src="" /></a>
-                <p class="copyright">&copy; Copyright Susan Evans. All rights reserved.</p>
-        
-                <div class="social-media">
-                    <a class="social-github" href="http://github.com/susanev"></a>
-                    <a class="social-linkedin" href="http://www.linkedin.com/in/susanev"></a>
-                    <a class="social-twitter" href="http://twitter.com/susanrevans"></a>
+        <footer>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-push-6">
+                    <ul class="footer-nav">
+                        <li><a href="index.html">Portfolio</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>                
+                <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+                    <p>This is the online portfolio of susan evans&mdash;a full-stack designer, and computer science educator.</p>
+                    <p class="copyright">&copy; Copyright Susan Evans. All rights reserved.</p>               
+                    <div class="social-media">
+                        <a class="social-github" href="http://github.com/susanev"></a>
+                        <a class="social-linkedin" href="http://www.linkedin.com/in/susanev"></a>
+                        <a class="social-twitter" href="http://twitter.com/susanrevans"></a>
+                    </div>
                 </div>
             </div>
         </footer>
