@@ -1,4 +1,4 @@
-var base = "/Users/scoutdos/Documents/susanev.github.io"
+var base = "http://www.susanrevans.com/"
 
 $(document).ready(function() {
     $('#health-insurance-viz').click(function() {
