@@ -312,10 +312,6 @@ svg:hover #github {
 .project-page h3 {
     margin-top: 9px;
 }
-.project-page img {
-    width: 100%;
-    margin:0 0 30px 0;
-}
 
 .project-page li {
     margin-bottom: 8px;
@@ -603,6 +599,13 @@ div.skills {
     margin-top: 30px;
 }
 
+.project-page img {
+    max-width: 450px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
 /* media queries */
 @media only screen and (max-width : 1200px) {
     #mainNav {
@@ -737,6 +740,10 @@ div.skills {
     }
 
     input, textarea, form {
+        width: 100%;
+    }
+
+    .project-page img {
         width: 100%;
     }
 }
