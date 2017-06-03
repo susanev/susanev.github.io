@@ -59,7 +59,61 @@
                     <p>How can we provide a design that gives Premera members the most important information related to their expenses and help build transparency in the health insurance system?</p>
 
                     <h2>Process</h2>
-                    <p>Coming soon.</p>
+                    <p>I started with a deep dive into how health insurance works and what some of the terms mean. I read articles, reviewed internal definitions, and informally interviewed people about their understandings of some of the key terms, including deductible, coinsurance, and out-of-pocket max. Next, I conducted a baseline study to evaluate the current designs (there are two used by Premera), by conducting a survey with 98 participants sourced from mechanical turk. The survey focused on whether people understood the visualization and how it works within their health insurance plan.</p>
+
+                    <h3>Original Designs</h3>
+                    <div class="col-sm-12 col-md-6">
+                        <img class="with-caption" src="./../imgs/project-imgs/health-insurance-viz/original-v1.png" />
+                        <p class="caption">This is the original design that most members saw at the beginning of this project.</p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <img class="with-caption" src="./../imgs/project-imgs/health-insurance-viz/original-v2.png" />
+                        <p class="caption">This is the original design that Micrsoft members saw at the beginning of this project.</p>
+                    </div>
+
+                    <p>Neither design was successful. The second version which included information about coinsurance we a slightly more successful but neither were able to convey both the information and what the terms meant.</p>
+
+                    <h3>Baseline study quotes</h3>
+                    <p>Many participants were confused about the bar graph, and were unclear about what the labels meant. One participant summarized this very well by saying, “I don’t understand why it starts at a number that isn’t 0. If it’s what I have to pay for my deductible to be paid, why does it start at $450 and not $0?”</p>
+
+                    <p>While other participants didn't care about the visuals, they just wanted the numbers, “Some actual numbers. The visuals look cute, but are pretty terrible for conveying information.”, "Do the math for us!"</p>
+
+                    <p>When participants were asked about what a deductible is and how it works, many participants had incorrect assumptions, one participant said that a deductible is “the amount you must pay out-of-pocket before your insurance company covers the full balance.” This is not correct, as once members meet their deductible they enter the coinsurance phase where they are still contributing some of the expenses. This ties directly back to the large number of calls, members meet their deductible and then do not understand why they are still paying money.</p>
+
+                    <p>When asked about coinsurance, only a few participants knew what the term meant, many people had very incorrect assumptions, this person for example “Insurance that covers more than one person.”</p>
+
+                    <h3>Design Iterations v1</h3>
+                    <p>To start the iteration process I wanted to find out if we even needed a visual at all, so I tested an updated design with only text information. I also communicated the same information with a single bar. I also wanted to understand if people were interacting with the information, additionally I wanted it to be in context of the rest of the dashboard, so I coded the design, and then ran studies using UserTesting.com.</p>
+
+                    <p><a href="http://premeraux.com/prototypes/member/oop-widget/iteration1/v1.html">Text only-version</a></p>
+
+                    <p><a href="http://premeraux.com/prototypes/member/oop-widget/iteration1/v2.html">Combined bar version</a></p>
+
+                    <p>Though these designs improved the participant's experience they still had a number of issues. They were now able to clearly understand they had more to pay, but now the deductible information was hidden from the user. Additionally the constraints of the Bootstrap progress bar, and limited space made it difficult to communicate information.</p>
+
+                    <p>These designs, however, did have some successes. All participants were able to quickly see and interact with the family tab, and half found the definitions useful.</p>
+
+                    <h3>Design Iteration v2</h3>
+
+                    <p>Moving away from the condensed space, and the default Bootstrap progress bar, I opted to explore with a circle graph which created more consistent spacing for information. Due to the previous results I was also able to advocate for moving this information to the center column where there would be more room and less space constraints.</p>
+
+                    <p>I created the circle graphs using HTML/CSS and again ran another round of studies.</p>
+
+                    <p><a href="http://premeraux.com/prototypes/member/oop-widget/iteration2/v4.html">Circle Graph version</a></p>
+
+                    <p>This design was wildly successful, with 100% of participants on UserTesting.com being able to understand terms, and be able to quickly know how much they still had to pay on both deductible and coinsurance. I also wanted to run a study with all empty states to ensure it was still a successful design for members who rarely use their health insurance.</p>
+
+                    <h3>Design Iteration v3</h3>
+
+                    <p>There were a number of smaller things to address now, including checking in with stakeholders, and collaborating with the content strategists on labels and definitions. </p>
+
+                    <p><a href="http://premeraux.com/prototypes/member/oop-widget/dashboard.html">Final Bootstrap Version</a></p>
+
+                    <h3>Material Design Implementation</h3>
+                    <p>We are currently going through a major re-branding process, and our using Bootstrap as our front-end framework. These iterations were all done within that constraint. However, we are moving to a material design library within the next year so I also built out a version using those patterns to clearly show the translation of the design into a new pattern library.</p>
+
+                    <img class="project-page-img" src="./../imgs/project-imgs/health-insurance-viz/full-material-design.svg" />
                  
                     <h2>Results</h2>
                     <p>It is anticipated that this design will reduce deductible and out-of-pocket call volumes significantly. I will update this section when the new implementation is released to our members and we are able to collect call volume data.</p>
