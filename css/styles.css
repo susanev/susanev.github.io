@@ -604,28 +604,61 @@ div.skills {
 }
 
 .project-page img {
-    max-width: 450px;
-    display: block;
     margin: 0 auto;
+    max-width: 350px;
     margin-bottom: 30px;
+    display: block;
 }
 
 .project-page img.with-caption {
     margin-bottom: 0;
 }
 
-.project-page p.caption {
+.project-page .pair-imgs {
+    padding: 0;
+}
+
+.project-page .pair-imgs img {
+    margin: 0;
     width: 100%;
-    margin: 0 auto;
-    display: block;
+    max-width: 300px;
+}
+
+.project-page p.caption {
     max-width: 300px;
     margin-bottom: 20px;
+}
+
+.project-page div.pair-imgs p.caption { 
+    margin: 5px 0 20px 0;
+    padding-left: 5px;
 }
 
 .project-page h3 {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 600;
+}
+
+.blockquote {
+    border-top: 2px solid #00BCD4;
+    border-bottom: 2px solid #00BCD4;
+    margin: 30px 0 35px 0;
+}
+.blockquote p::before {
+    content: "\201C";
+}
+
+.blockquote p::after {
+    content: "\201D";
+}
+
+.blockquote p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    margin: 12px 0 15px 0;
 }
 
 
@@ -682,6 +715,18 @@ div.skills {
     .container {
         margin: 0;
         width: 100%;
+    }
+
+    .project-page .pair-imgs img,
+    .project-page p.caption,
+    .project-page div.pair-imgs p.caption  {
+        margin: 0 auto;
+    }
+
+    .project-page p.caption,
+    .project-page div.pair-imgs p.caption {
+        margin-top: 5px;
+        margin-bottom: 40px;
     }
 }
 

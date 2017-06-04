@@ -47,37 +47,45 @@
                 <div class="col-sm-9 col-xs-12 project-details">
                     <h1>Health Insurance Visualizations</h1>
                     <h2>Project Summary</h2>
-                    <p>"Why am I still paying?" that's the question our customer service representatives at Premera were hearing on a regular basis. On our member dashboard we display only a deductible visualization leaving many members assuming that once they met their deductible that they would no longer pay.</p>
-                    <p>To address this problem and reduce call volume I ran usability studies on the current designs, and then iterated on those designs to improve the experience and better inform our members. Throughout my iterations I also ran many more studies to ensure the design was improving the experience.</p>
+                    <p>"Why am I still paying?" that's the question our customer service representatives at Premera were hearing on a regular basis. This is of no surprise, since our member dashboard displays only a deductible visualization leaving many members assuming that once they meet their deductible they will no longer pay.</p>
+                    <p>I led the redesign to address this problem and reduce call volume. I started by running usability studies on the current designs, and then iterated on those designs to improve the experience and better inform our members. Throughout my iterations I continued to run studies to ensure the design was improving our member's experience.</p>
                     <p>After I created a stable design that improved the experience and better informed members, I built out the design using HTML, CSS, and JavaScript and paired with our UI engineer to bring the design to life on our website.</p>
             
-                    <img class="project-page-img" src="./../imgs/project-imgs/health-insurance-viz/full-material-design.svg" />
+                    <img class="project-page-img with-caption" src="./../imgs/project-imgs/health-insurance-viz/full-material-design.svg" />
+                    <p class="caption">The improved design aligning to Google's material design patterns.</p>
                     
                     <h2>Problem Space</h2>
-                    <p>Health insurance is a complicated system, and many people do not understand what portion of the expenses they are responsible for?</p>
+                    <p>Health insurance is a complicated system, and many people do not understand what portion of the expenses they will need to contribute.</p>
 
-                    <p>How can we provide a design that gives Premera members the most important information related to their expenses and help build transparency in the health insurance system?</p>
+                    <p>How can I provide a design that gives Premera members the most important expense related information and help build transparency in the health insurance system?</p>
 
                     <h2>Process</h2>
-                    <p>I started with a deep dive into how health insurance works and what some of the terms mean. I read articles, reviewed internal definitions, and informally interviewed people about their understandings of some of the key terms, including deductible, coinsurance, and out-of-pocket max. Next, I conducted a baseline study to evaluate the current designs (there are two used by Premera), by conducting a survey with 98 participants sourced from mechanical turk. The survey focused on whether people understood the visualization and how it works within their health insurance plan.</p>
+                    <p>I started with a deep dive into how health insurance works and what some of the terms mean. I read articles, reviewed internal definitions, and informally interviewed people about their understandings of the key terms, including deductible, coinsurance, and out-of-pocket max.
 
-                    <h3>Original Designs</h3>
-                    <div class="col-sm-12 col-md-6">
-                        <img class="with-caption" src="./../imgs/project-imgs/health-insurance-viz/original-v1.png" />
+                    <h3>Baseline study</h3>
+                    <p>After establishing my own knowledge about health insurance expense I conducted a baseline study to evaluate the current designs (there are currently two used by Premera), by conducting a survey with 98 participants sourced from mechanical turk. The survey focused on whether people understood the visualization and how it works within their health insurance plan.</p>
+
+                    <div class="pair-imgs col-sm-12 col-md-6">
+                        <img class="with-caption" src="./../imgs/project-imgs/health-insurance-viz/original-v1.svg" />
                         <p class="caption">This is the original design that most members saw at the beginning of this project.</p>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
-                        <img class="with-caption" src="./../imgs/project-imgs/health-insurance-viz/original-v2.png" />
+                    <div class="pair-imgs col-sm-12 col-md-6">
+                        <img class="with-caption" src="./../imgs/project-imgs/health-insurance-viz/original-v2.svg" />
                         <p class="caption">This is the original design that Micrsoft members saw at the beginning of this project.</p>
                     </div>
 
+                    <p>Participants were asked "How much do you still have to pay to meet your medical deductible?", and "How much more do you have to pay for medical services until your plan will pay all of your covered services?" and for both of these questions there were asked to explain how they determined their answer and to describe any information that could be added or changed to make it easier for them to answer. Participants were also asked to define both deductible and coinsurance.</p>
+
                     <p>Neither design was successful. The second version which included information about coinsurance we a slightly more successful but neither were able to convey both the information and what the terms meant.</p>
 
-                    <h3>Baseline study quotes</h3>
                     <p>Many participants were confused about the bar graph, and were unclear about what the labels meant. One participant summarized this very well by saying, “I don’t understand why it starts at a number that isn’t 0. If it’s what I have to pay for my deductible to be paid, why does it start at $450 and not $0?”</p>
 
-                    <p>While other participants didn't care about the visuals, they just wanted the numbers, “Some actual numbers. The visuals look cute, but are pretty terrible for conveying information.”, "Do the math for us!"</p>
+                    <p>While other participants didn't care about the visuals, they just wanted the numbers, “The visuals look cute, but are pretty terrible for conveying information.”, "Do the math for us!"</p>
+
+                    <div class="blockquote">
+                        <p>Do the math for us!</p>
+                    </div>
 
                     <p>When participants were asked about what a deductible is and how it works, many participants had incorrect assumptions, one participant said that a deductible is “the amount you must pay out-of-pocket before your insurance company covers the full balance.” This is not correct, as once members meet their deductible they enter the coinsurance phase where they are still contributing some of the expenses. This ties directly back to the large number of calls, members meet their deductible and then do not understand why they are still paying money.</p>
 
