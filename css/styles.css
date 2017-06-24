@@ -76,7 +76,7 @@ input, p, a, li, textarea {
     font-family: "Crimson+Text", Arial, sans-serif;
 }
 
-.project-details p, .project-details a {
+.project-details p, .project-details a, article .project-page li {
     font-family: Georgia, Arial, sans-serif;
     line-height: 30px;
 }
