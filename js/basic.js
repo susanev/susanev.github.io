@@ -4,6 +4,9 @@ $(document).ready(function() {
     $('#health-insurance-viz').click(function() {
         window.location.href= base + '/projects/health-insurance-visualizations.html';
     });
+    $('#claim-table-design').click(function() {
+        window.location.href= base + '/projects/claim-table-design.html';
+    });
     $('#conception-tracking').click(function() {
         window.location.href= base + '/projects/conception-tracking.html';
     });

@@ -372,6 +372,10 @@ svg:hover #github {
     background-image: url('../imgs/project-imgs/health-insurance-viz/main.svg');
 }
 
+.claim-table-design {
+    background-image: url('../imgs/project-imgs/claim-table-design/main.png');
+}
+
 .autonomous-vehicle-system {
     background-image: 
         url('../imgs/project-imgs/autonomous-vehicle-system/main.png');
