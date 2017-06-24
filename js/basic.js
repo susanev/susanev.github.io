@@ -1,4 +1,4 @@
-var base = "http://www.susanrevans.com/"
+var base = "http://www.susanrevans.com"
 
 $(document).ready(function() {
     $('#health-insurance-viz').click(function() {
