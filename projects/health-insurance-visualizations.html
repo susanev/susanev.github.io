@@ -47,7 +47,7 @@
                 <div class="col-sm-9 col-xs-12 project-details">
                     <h1>Health Insurance Visualizations</h1>
                     <h2>Project Summary</h2>
-                    <p>"Why am I still paying?" that's the question our customer service representatives at Premera were hearing on a regular basis. This is of no surprise, since our member dashboard displays only a deductible visualization leaving many members assuming that once they meet their deductible they will no longer pay.</p>
+                    <p>"Why am I still paying?" that's the question our customer service representatives at Premera were hearing on a regular basis. This is of no surprise, since our member dashboard displays only a deductible visualization leaving many members assuming that once they meet their deductible they will no longer have to pay.</p>
                     <p>I led the redesign to address this problem and reduce call volume. I started by running usability studies on the current designs, and then iterated on those designs to improve the experience and better inform our members. Throughout my iterations I continued to run studies to ensure the design was improving our member's experience.</p>
                     <p>After I created a stable design that improved the experience and better informed members, I built out the design using HTML, CSS, and JavaScript and paired with our UI engineer to bring the design to life on our website.</p>
             
@@ -57,10 +57,12 @@
                     <h2>Problem Space</h2>
                     <p>Health insurance is a complicated system, and many people do not understand what portion of the expenses they will need to contribute.</p>
 
-                    <p>How can I provide a design that gives Premera members the most important expense related information and help build transparency in the health insurance system?</p>
+                    <p>How can I provide a design that gives Premera members the most important expense related information and build transparency in the health insurance system?</p>
 
                     <h2>Process</h2>
-                    <p>I started with a deep dive into how health insurance works and what some of the terms mean. I read articles, reviewed internal definitions, and informally interviewed people about their understandings of the key terms, including deductible, coinsurance, and out-of-pocket max.
+                    <p>I started with a deep dive into how health insurance works and what some of the terms mean. I read articles, reviewed internal definitions, and informally interviewed people about their understandings of the key terms, including deductible, coinsurance, and out-of-pocket max.</p>
+
+                    <p>As a quick primer, your deductible is the amount you have to pay before insurance begins contributing, once you have met your deductible then you will begin contributing to your coinsurance. For coinsurance you will pay a set percentage (usually 20%) and your health insurance will cover the rest. An out-of-pocket max is the total amount you will ever have to pay towards your covered services. There are lots of other small details, and exceptions, but this is the crux of how the system works.</p>
 
                     <h3>Baseline study</h3>
                     <p>After establishing my own knowledge about health insurance expense I conducted a baseline study to evaluate the current designs (there are currently two used by Premera), by conducting a survey with 98 participants sourced from mechanical turk. The survey focused on whether people understood the visualization and how it works within their health insurance plan.</p>
@@ -75,9 +77,9 @@
                         <p class="caption">This is the original design that Micrsoft members saw at the beginning of this project.</p>
                     </div>
 
-                    <p>Participants were asked "How much do you still have to pay to meet your medical deductible?", and "How much more do you have to pay for medical services until your plan will pay all of your covered services?" and for both of these questions there were asked to explain how they determined their answer and to describe any information that could be added or changed to make it easier for them to answer. Participants were also asked to define both deductible and coinsurance.</p>
+                    <p>Participants were asked "How much do you still have to pay to meet your medical deductible?", and "How much more do you have to pay for medical services until your plan will pay all of your covered services?" and as a follow-up they were asked to explain how they determined their answer and to describe any information that could be added or changed to make it easier for them to answer. Participants were also asked to define both deductible and coinsurance.</p>
 
-                    <p>Neither design was successful. The second version which included information about coinsurance we a slightly more successful but neither were able to convey both the information and what the terms meant.</p>
+                    <p><strong>Neither design was successful</strong>. The second version which included information about coinsurance was slightly more successful but neither was able to convey both the information and what the terms mean.</p>
 
                     <p>Many participants were confused about the bar graph, and were unclear about what the labels meant. One participant summarized this very well by saying, “I don’t understand why it starts at a number that isn’t 0. If it’s what I have to pay for my deductible to be paid, why does it start at $450 and not $0?”</p>
 
@@ -87,30 +89,30 @@
                         <p>Do the math for us!</p>
                     </div>
 
-                    <p>When participants were asked about what a deductible is and how it works, many participants had incorrect assumptions, one participant said that a deductible is “the amount you must pay out-of-pocket before your insurance company covers the full balance.” This is not correct, as once members meet their deductible they enter the coinsurance phase where they are still contributing some of the expenses. This ties directly back to the large number of calls, members meet their deductible and then do not understand why they are still paying money.</p>
+                    <p>When participants were asked about what a deductible is and how it works, many participants had incorrect assumptions, one participant said that a deductible is “the amount you must pay out-of-pocket before your insurance company covers the full balance.” This is not correct, as once members meet their deductible they begin contributing to coinsurance. This ties directly back to the large number of calls, members meet their deductible and then expect to not have to contribute anymore money.</p>
 
-                    <p>When asked about coinsurance, only a few participants knew what the term meant, many people had very incorrect assumptions, this person for example “Insurance that covers more than one person.”</p>
+                    <p>When asked about coinsurance, only a few participants knew what the term meant, many people had very incorrect assumptions including thinking it is when more than one person is on the plan, or when more than one company covers your health needs.</p>
 
                     <h3>Design Iterations v1</h3>
-                    <p>To start the iteration process I wanted to find out if we even needed a visual at all, so I tested an updated design with only text information. I also communicated the same information with a single bar. I also wanted to understand if people were interacting with the information, additionally I wanted it to be in context of the rest of the dashboard, so I coded the design, and then ran studies using UserTesting.com.</p>
+                    <p>To start the iteration process I wanted to find out if we even needed a visual at all, so I tested an updated design with only text information. Additionally, I tried a version with a single bar. I coded up the designs into our current design guidelines to be able to gather information in context, I then ran studies using UserTesting.com.</p>
 
                     <p><a href="http://premeraux.com/prototypes/member/oop-widget/iteration1/v1.html">Text only-version</a></p>
 
                     <p><a href="http://premeraux.com/prototypes/member/oop-widget/iteration1/v2.html">Combined bar version</a></p>
 
-                    <p>Though these designs improved the participant's experience they still had a number of issues. They were now able to clearly understand they had more to pay, but now the deductible information was hidden from the user. Additionally the constraints of the Bootstrap progress bar, and limited space made it difficult to communicate information.</p>
+                    <p>Though these designs improved the participant's experience they still had a number of issues, they were now able to clearly understand they had more to pay, but the deductible information was hidden from the user. Additionally the constraints of the Bootstrap progress bar, and limited space made it difficult to communicate information.</p>
 
                     <p>These designs, however, did have some successes. All participants were able to quickly see and interact with the family tab, and half found the definitions useful.</p>
 
                     <h3>Design Iteration v2</h3>
 
-                    <p>Moving away from the condensed space, and the default Bootstrap progress bar, I opted to explore with a circle graph which created more consistent spacing for information. Due to the previous results I was also able to advocate for moving this information to the center column where there would be more room and less space constraints.</p>
+                    <p>Moving away from the condensed space, and the default Bootstrap progress bar, I opted to explore a solution that used a circle graph which created more consistent spacing for the information. Due to the previous results I was also able to advocate for moving this information to the center column where there would be more room and less space constraints.</p>
 
                     <p>I created the circle graphs using HTML/CSS and again ran another round of studies.</p>
 
                     <p><a href="http://premeraux.com/prototypes/member/oop-widget/iteration2/v4.html">Circle Graph version</a></p>
 
-                    <p>This design was wildly successful, with 100% of participants on UserTesting.com being able to understand terms, and be able to quickly know how much they still had to pay on both deductible and coinsurance. I also wanted to run a study with all empty states to ensure it was still a successful design for members who rarely use their health insurance.</p>
+                    <p>This design was wildly successful, with 100% of participants on UserTesting.com being able to understand terms, and be able to quickly know how much they still had to pay on both deductible and coinsurance. I also ran a study with all empty states to ensure it was still a successful design for members who rarely use their health insurance.</p>
 
                     <h3>Design Iteration v3</h3>
 
@@ -119,7 +121,7 @@
                     <p><a href="http://premeraux.com/prototypes/member/oop-widget/dashboard.html">Final Bootstrap Version</a></p>
 
                     <h3>Material Design Implementation</h3>
-                    <p>We are currently going through a major re-branding process, and our using Bootstrap as our front-end framework. These iterations were all done within that constraint. However, we are moving to a material design library within the next year so I also built out a version using those patterns to clearly show the translation of the design into a new pattern library.</p>
+                    <p>We are currently going through a major re-branding process, moving away from the standard Bootstrap elements into elements based on Google's Material Design specification so I also built out a version using those patterns to clearly show the translation of the design into a new pattern library.</p>
 
                     <img class="project-page-img" src="./../imgs/project-imgs/health-insurance-viz/full-material-design.svg" />
                  
@@ -132,15 +134,17 @@
                     
                     <h3>Links</h3>
                     <ul>
-                        <li><a></a></li>
+                        <li><a href="http://premeraux.com/prototypes/member/oop-widget/dashboard.html">Final Bootstrap Version</a></li>
                     </ul>
                                     
                     <h3>Tasks</h3>
-                    <ul><li>User Research</li>
-                    <li>Ideation</li>
-                    <li>Prototyping</li>
-                    <li>Usability Studies</li>
-                    <li>Implementation</li></ul>
+                    <ul>
+                        <li>User Research</li>
+                        <li>Ideation</li>
+                        <li>Prototyping</li>
+                        <li>Usability Studies</li>
+                        <li>Implementation</li>
+                    </ul>
                 </div>
             </div>
         </article>
