@@ -621,6 +621,7 @@ div.skills {
 
 .project-page img {
     margin: 0 auto;
+    max-width: 650px;
     margin-bottom: 30px;
     display: block;
 }
