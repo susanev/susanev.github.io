@@ -383,7 +383,7 @@ svg:hover #github {
 
 .ecommerce {
     background-image: 
-        url('../imgs/project-imgs/ecommerce/main.png');
+        url('../imgs/project-imgs/e-commerce/main.png');
 }
 
 /* hamburger menu styles */
@@ -621,9 +621,12 @@ div.skills {
 
 .project-page img {
     margin: 0 auto;
-    max-width: 350px;
     margin-bottom: 30px;
     display: block;
+}
+
+.healthviz .project-page img {
+    max-width: 350px;
 }
 
 .project-page img.with-caption {
