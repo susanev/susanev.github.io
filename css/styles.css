@@ -513,7 +513,6 @@ p.caption {
     margin: auto;
     width: 355px;
     margin-top: 5px;
-    margin-bottom: 40px;
     line-height: 20px;
 }
 
@@ -647,7 +646,7 @@ div.skills {
 
 .project-page p.caption {
     max-width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .project-page div.pair-imgs p.caption { 
