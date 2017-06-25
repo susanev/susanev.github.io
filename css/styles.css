@@ -381,6 +381,11 @@ svg:hover #github {
         url('../imgs/project-imgs/autonomous-vehicle-system/main.png');
 }
 
+.ecommerce {
+    background-image: 
+        url('../imgs/project-imgs/ecommerce/main.png');
+}
+
 /* hamburger menu styles */
 .hamburger {
     display: none;

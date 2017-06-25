@@ -19,6 +19,9 @@ $(document).ready(function() {
     $('#ruby-curriculum').click(function() {
         window.location.href= base + '/projects/ruby-curriculum-development.html';
     });
+    $('#ecommerce').click(function() {
+        window.location.href= base + '/projects/e-commerce-interaction-design.html';
+    });
 });
 
 var displayNav = false;
