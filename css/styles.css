@@ -266,8 +266,8 @@ svg:hover #github {
 .button {
     margin: 20px 0 20px 0;
     padding: 20px 30px;
-    background-color: #f7c1b7;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     font-size: 18px;
     border-radius: 4px;
     width: 250px;
@@ -277,7 +277,7 @@ svg:hover #github {
 }
 
 .button:hover {
-	background-color: #DEADA4;
+	background-color: #ddd;
     text-decoration: none;
 }
 
