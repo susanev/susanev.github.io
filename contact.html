@@ -46,15 +46,15 @@
                     <h1>Contact</h1>
                     <p>Interested in connecting with me?<br/>Send me a message!</p>
                     <form id="contact-form" class="col-xs-12" method="post" action="https://formspree.io/susan.ra.evans@gmail.com">
-                        <label>Name<span class="error">*</span></label>
-                        <input class="form-field" name="name" onblur="checkValue(this)">
-                        <label>Email<span class="error">*</span></label>
-                        <input class="form-field" name="email" type="email" onblur="checkValue(this)">
-                        <label>Message<span class="error">*</span></label>
-                        <textarea class="form-field" name="message" onblur="checkValue(this)"></textarea>
+                        <label for="name-field">Name<span class="error" aria-hidden="true">*</span></label>
+                        <input id="name-field" class="form-field" name="name" onblur="checkValue(this)">
+                        <label for="email-field">Email<span class="error" aria-hidden="true">*</span></label>
+                        <input id="email-field" class="form-field" name="email" type="email" onblur="checkValue(this)">
+                        <label for="message-textbox">Message<span class="error" aria-hidden="true">*</span></label>
+                        <textarea id="message-textbox" class="form-field" name="message" onblur="checkValue(this)"></textarea>
                         <input type="text" name="_gotcha" style="display:none" />                       
                         <p id="user-msg"></p>
-                        <input id="submit" name="submit" type="submit" class="button" value="Submit" onclick="return checkValues()">                        
+                        <input id="submit" name="submit" type="submit" class="button" value="Send message" onclick="return checkValues()">                        
                         <input type="hidden" name="_next" value="thankyou.html" />
                         <input type="hidden" name="_subject" value="Website Contact Submission" />
                     </form>
