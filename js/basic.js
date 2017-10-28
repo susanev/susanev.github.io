@@ -4,22 +4,43 @@ $(document).ready(function() {
     $('#health-insurance-viz').click(function() {
         window.location.href= base + '/projects/health-insurance-visualizations.html';
     });
+    $('#health-insurance-viz').keypress(function() {
+        window.location.href= base + '/projects/health-insurance-visualizations.html';
+    });
     $('#claim-table-design').click(function() {
+        window.location.href= base + '/projects/claim-table-design.html';
+    });
+    $('#claim-table-design').keypress(function() {
         window.location.href= base + '/projects/claim-table-design.html';
     });
     $('#conception-tracking').click(function() {
         window.location.href= base + '/projects/conception-tracking.html';
     });
+    $('#conception-tracking').keypress(function() {
+        window.location.href= base + '/projects/conception-tracking.html';
+    });
 	$('#autonomous-vehicle-system').click(function() {
 		window.location.href= base + '/projects/autonomous-vehicle-system.html';
 	});
+    $('#autonomous-vehicle-system').keypress(function() {
+        window.location.href= base + '/projects/autonomous-vehicle-system.html';
+    });
     $('#art-guide').click(function() {
+        window.location.href= base + '/projects/art-guide.html';
+    });
+    $('#art-guide').keypress(function() {
         window.location.href= base + '/projects/art-guide.html';
     });
     $('#ruby-curriculum').click(function() {
         window.location.href= base + '/projects/ruby-curriculum-development.html';
     });
+    $('#ruby-curriculum').keypress(function() {
+        window.location.href= base + '/projects/ruby-curriculum-development.html';
+    });
     $('#ecommerce').click(function() {
+        window.location.href= base + '/projects/e-commerce-interaction-design.html';
+    });
+    $('#ecommerce').keypress(function() {
         window.location.href= base + '/projects/e-commerce-interaction-design.html';
     });
 });
