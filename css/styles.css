@@ -630,14 +630,14 @@ div.skills {
     font-size: 18px;
 }
 
-.resume .work-exp h4 {
-    color: #212121;
-    font-size: 20px;
-    margin-bottom: 10px;
+.resume .work-exp h5 {
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
 }
 
-.resume .work-exp div:nth-of-type(3) {
-    margin-top: 30px;
+.resume .work-exp h4 {
+    margin-bottom: 10px;
 }
 
 .html-resume {
