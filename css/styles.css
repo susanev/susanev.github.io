@@ -22,21 +22,22 @@ header {
 
 a {
     text-decoration: none;
-    border-bottom: 1px solid #03A9F4;
-    outline: none;
-    color: #03A9F4;
-}
-
-a:focus {
-    color: #000;
+    border-bottom: 1px solid #3344dd;
+    color: #3344dd;
 }
 
 a:hover {
     text-decoration: none;
 }
 
-a:hover {
-    color: #03A9FA;
+a:focus, a:hover {
+    color: #bb1122;
+    border-bottom: 1px solid #bb1122;
+}
+
+a:visited {
+    color: #884488;
+    border-bottom: 1px solid #884488; 
 }
 
 
