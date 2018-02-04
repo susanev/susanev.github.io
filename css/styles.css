@@ -505,11 +505,11 @@ label, #user-msg {
 }
 
 .error {
-    color: #ff0000;
+    color: #c70000;
 }
 
 .error-border {
-    border: 2px solid #ff0000;
+    border: 2px solid #c70000;
 }
 
 .reset-border {
