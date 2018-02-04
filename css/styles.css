@@ -148,7 +148,8 @@ header nav a.active {
     border-bottom: 5px solid #000;
 }
 
-header nav a:hover {
+header nav a:hover,
+header nav a:focus {
     border-bottom: 5px solid #000;
     text-decoration: none;
     color: #000;
