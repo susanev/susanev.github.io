@@ -7,7 +7,7 @@ body {
     background-color: #f3f3f3;
 }
 
-article {
+main {
     width: 1130px;
     margin: 40px auto;
     padding: 40px;
@@ -82,7 +82,7 @@ input, p, a, li, textarea {
     font-family: "Crimson+Text", Arial, sans-serif;
 }
 
-.project-details p, .project-details a, article .project-page li {
+.project-details p, .project-details a, main .project-page li {
     font-family: Georgia, Arial, sans-serif;
     line-height: 30px;
 }
