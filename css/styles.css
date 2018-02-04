@@ -40,9 +40,6 @@ a:visited {
     border-bottom: 1px solid #884488; 
 }
 
-
-
-
 /* headings */
 h1 {
     font-size: 42px; 
@@ -142,19 +139,28 @@ nav ul li.last {
     margin-right: 0;
 }
 
-nav a {
+header nav a {
     border-bottom: none;
     color: #000;
 }
 
-nav a.active {
+header nav a.active {
     border-bottom: 5px solid #000;
 }
 
-nav a:hover {
+header nav a:hover {
     border-bottom: 5px solid #000;
     text-decoration: none;
     color: #000;
+}
+
+header nav a:visited {
+    color: #000;
+}
+
+footer .footer-nav a:visited {
+    color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 #mainNav {
@@ -169,9 +175,15 @@ a:focus {
     text-decoration: none;
 }
 
-a.name:hover,
-a.name:focus {
+header a.name:hover,
+header a.name:focus,
+header a.name:visited {
     color: #000;
+}
+
+header a.name:hover,
+header a.name:focus {
+    border-bottom: none;
 }
 
 .name {
