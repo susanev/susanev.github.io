@@ -85,6 +85,11 @@ input, p, a, li, textarea {
     line-height: 30px;
 }
 
+main.project-page div.project-details ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
 .project-page p, .project-page li {
     font-size: 18px;
 }
