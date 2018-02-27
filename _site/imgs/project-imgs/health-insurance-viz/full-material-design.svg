@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="404px" height="716px" viewBox="0 0 404 716" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="5%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="20%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="80%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.02" offset="95.0255322%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.04" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0" y="0" width="388" height="708" rx="2"></rect>
+        <filter x="-1.5%" y="-0.6%" width="103.1%" height="101.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-6" points="388 0 0 0 0 48 388 48"></polygon>
+        <filter x="-3.1%" y="-16.7%" width="106.2%" height="150.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-8" x="0" y="0" width="360" height="48"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="card-1" transform="translate(8.000000, 2.000000)">
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <g id="card">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="url(#linearGradient-1)" stroke-width="0.5" x="0.25" y="0.25" width="387.5" height="707.5" rx="2"></rect>
+                <rect stroke="url(#linearGradient-2)" stroke-width="0.5" x="0.25" y="0.25" width="387.5" height="707.5" rx="2"></rect>
+            </g>
+            <g id="top-info" mask="url(#mask-4)">
+                <g transform="translate(16.000000, 16.000000)">
+                    <circle id="Oval-88" fill="#E1E1E1" fill-rule="evenodd" cx="20" cy="20" r="20"></circle>
+                    <path d="M40,20 C40,8.954305 31.045695,0 20,0 C20,10 20,8.954305 20,20" id="Oval-88-Copy-2" fill="#009BDA" fill-rule="evenodd"></path>
+                    <text id="Out-of-pocket-Expens" fill="none" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="24" fill-opacity="0.87">
+                        <tspan x="56" y="16" fill="#000000">Out-of-pocket Expenses</tspan>
+                    </text>
+                    <text id="Plan-Year:-02/01/201" fill="none" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="24" fill-opacity="0.54">
+                        <tspan x="56" y="36" fill="#000000">Plan Year: 02/01/2017 – 01/31/2018</tspan>
+                    </text>
+                    <circle id="Oval-88-Copy-3" fill="#FFFFFF" fill-rule="evenodd" cx="20" cy="20" r="12"></circle>
+                </g>
+            </g>
+            <g id="medical-oop" mask="url(#mask-4)">
+                <g transform="translate(15.000000, 133.000000)">
+                    <g id="medical-coinsurance" stroke-width="1" fill-rule="evenodd" transform="translate(214.000000, 59.000000)">
+                        <circle id="Oval-88-Copy-5" fill="#E1E1E1" cx="62.5" cy="87.5" r="62.5"></circle>
+                        <path d="M122.862553,101.774198 C123.933597,97.1895972 124.931066,92.4291131 124.931066,87.5181692 C124.931066,68.5301917 116.487928,51.4463217 103.005612,39.978738 C91.9787433,30.5996714 77.5298194,25 62,25 C62,41.9252062 62,64.941999 62,87.9179688 C122.862553,101.774198 87.2167969,93.8222656 122.862553,101.774198 Z" id="Oval-88-Copy-5" fill="#009BDA"></path>
+                        <circle id="Oval-88-Copy-6" fill="#FFFFFF" cx="62.5" cy="87.5" r="40.5"></circle>
+                        <text id="$2,450" font-family="Roboto-Medium, Roboto" font-size="22" font-weight="400" line-spacing="20" fill="#009BDA">
+                            <tspan x="28" y="89">$2,450</tspan>
+                        </text>
+                        <text id="left-to-pay" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" line-spacing="20" fill="#009BDA">
+                            <tspan x="36.3134766" y="104">left to pay</tspan>
+                        </text>
+                        <text id="$1,050-paid-/-$3,500" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="16" fill-opacity="0.87" fill="#000000">
+                            <tspan x="8" y="169">$1,050 paid / $3,500</tspan>
+                        </text>
+                        <g id="Group-Copy" transform="translate(12.000000, 0.000000)" font-weight="normal" font-family="Roboto-Regular, Roboto" line-spacing="20" fill="#000000" font-size="16" fill-opacity="0.87">
+                            <g id="Group-3">
+                                <text id="Coinsurance">
+                                    <tspan x="0" y="15">Coinsurance</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="medical-deductible" stroke-width="1" fill-rule="evenodd" transform="translate(11.000000, 59.000000)">
+                        <circle id="Oval-88-Copy-4" fill="#009BDA" cx="62.5" cy="87.5" r="62.5"></circle>
+                        <g id="ic_done_black_24px" transform="translate(37.000000, 28.000000)">
+                            <polygon id="Shape" points="0 0 59 0 59 59 0 59"></polygon>
+                            <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="22.125 52.825 11.8 42.5 8.35833333 45.9416667 22.125 59.7083333 51.625 30.2083333 48.1833333 26.7666667"></polygon>
+                        </g>
+                        <text id="100%-paid" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" line-spacing="20" fill="#FFFFFF">
+                            <tspan x="21" y="112">100% paid</tspan>
+                        </text>
+                        <text id="$1,000-paid-/-$1,000" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="16" fill-opacity="0.87" fill="#000000">
+                            <tspan x="8" y="169">$1,000 paid / $1,000</tspan>
+                        </text>
+                        <text id="Deductible" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill-opacity="0.87" fill="#000000">
+                            <tspan x="19" y="15">Deductible</tspan>
+                        </text>
+                    </g>
+                    <text id="Medical-out-of-pocke" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill-opacity="0.87">
+                        <tspan x="0" y="19" fill="#000000">Medical out-of-pocket</tspan>
+                    </text>
+                    <text id="$2,050-paid-/-$4,500" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="24" fill-opacity="0.87">
+                        <tspan x="0" y="41" fill="#000000">$2,050 paid / $4,500 max</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="dental-oop" mask="url(#mask-4)">
+                <g transform="translate(15.000000, 396.000000)">
+                    <g id="dental-coinsurance" stroke-width="1" fill-rule="evenodd" transform="translate(214.000000, 59.000000)">
+                        <circle id="Oval-88-Copy-5" fill="#E1E1E1" cx="62.5" cy="87.5" r="62.5"></circle>
+                        <circle id="Oval-88-Copy-6" fill="#FFFFFF" cx="62.5" cy="87.5" r="40.5"></circle>
+                        <text id="$400" font-family="Roboto-Medium, Roboto" font-size="22" font-weight="400" line-spacing="20" fill="#009BDA">
+                            <tspan x="36.5" y="89">$400</tspan>
+                        </text>
+                        <text id="left-to-pay" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" line-spacing="20" fill="#009BDA">
+                            <tspan x="36.3134766" y="104">left to pay</tspan>
+                        </text>
+                        <text id="$0-paid-/-$400" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="16" fill-opacity="0.87" fill="#000000">
+                            <tspan x="24" y="169">$0 paid / $400</tspan>
+                        </text>
+                        <g id="Group-Copy" transform="translate(12.000000, 0.000000)" font-weight="normal" font-family="Roboto-Regular, Roboto" line-spacing="20" fill="#000000" font-size="16" fill-opacity="0.87">
+                            <g id="Group-3">
+                                <text id="Coinsurance">
+                                    <tspan x="0" y="15">Coinsurance</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="dental-deductible" stroke-width="1" fill-rule="evenodd" transform="translate(10.000000, 59.000000)">
+                        <text id="$50-paid-/-$150" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="16" fill-opacity="0.87" fill="#000000">
+                            <tspan x="22" y="169">$50 paid / $150</tspan>
+                        </text>
+                        <text id="Deductible" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill-opacity="0.87" fill="#000000">
+                            <tspan x="20" y="15">Deductible</tspan>
+                        </text>
+                        <circle id="Oval-88-Copy-9" fill="#E1E1E1" cx="62.5" cy="87.5" r="62.5"></circle>
+                        <path d="M108.844485,129.418272 C118.735983,118.362007 124.969755,103.488172 124.969755,87.4854733 C124.969755,64.936441 112.916228,45.0091994 94.8733974,34.0213341 C85.2964724,28.1891028 73.9687645,25 62,25 C62,56.4023438 62,57.5954844 62,92.1132812 C93.25,115.515625 93.5002437,118.362007 108.844485,129.418272 Z" id="Path" fill="#009BDA"></path>
+                        <circle id="Oval-88-Copy-8" fill="#FFFFFF" cx="62.5" cy="87.5" r="40.5"></circle>
+                        <text id="$100" font-family="Roboto-Medium, Roboto" font-size="22" font-weight="400" line-spacing="20" fill="#009BDA">
+                            <tspan x="37" y="86">$100</tspan>
+                        </text>
+                        <text id="left-to-pay-copy" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" line-spacing="20" fill="#009BDA">
+                            <tspan x="37.3134766" y="101">left to pay</tspan>
+                        </text>
+                    </g>
+                    <text id="Dental-out-of-pocket" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill-opacity="0.87">
+                        <tspan x="0" y="19" fill="#000000">Dental out-of-pocket</tspan>
+                    </text>
+                    <text id="$50-paid-/-$550-max" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="24" fill-opacity="0.87">
+                        <tspan x="0" y="41" fill="#000000">$50 paid / $550 max</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="WHAT-DO-THESE-TERMS" mask="url(#mask-4)" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="0.5" fill="#009BDA">
+                <tspan x="15.3862305" y="683">WHAT DO THESE TERMS MEAN?</tspan>
+            </text>
+        </g>
+        <g id="ic_info_black_24px" transform="translate(131.000000, 195.000000)">
+            <polygon id="Shape" points="0 0 18 0 18 18 0 18"></polygon>
+            <path d="M9,1.5 C4.86,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.86,16.5 9,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 9,1.5 Z M9.75,12.75 L8.25,12.75 L8.25,8.25 L9.75,8.25 L9.75,12.75 Z M9.75,6.75 L8.25,6.75 L8.25,5.25 L9.75,5.25 L9.75,6.75 Z" id="Shape" fill="#009BDA" fill-rule="nonzero"></path>
+        </g>
+        <g id="ic_info_black_24px-copy" transform="translate(340.000000, 195.000000)">
+            <polygon id="Shape" points="0 0 18 0 18 18 0 18"></polygon>
+            <path d="M9,1.5 C4.86,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.86,16.5 9,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 9,1.5 Z M9.75,12.75 L8.25,12.75 L8.25,8.25 L9.75,8.25 L9.75,12.75 Z M9.75,6.75 L8.25,6.75 L8.25,5.25 L9.75,5.25 L9.75,6.75 Z" id="Shape" fill="#009BDA" fill-rule="nonzero"></path>
+        </g>
+        <g id="ic_info_black_24px-copy-2" transform="translate(340.000000, 458.000000)">
+            <polygon id="Shape" points="0 0 18 0 18 18 0 18"></polygon>
+            <path d="M9,1.5 C4.86,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.86,16.5 9,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 9,1.5 Z M9.75,12.75 L8.25,12.75 L8.25,8.25 L9.75,8.25 L9.75,12.75 Z M9.75,6.75 L8.25,6.75 L8.25,5.25 L9.75,5.25 L9.75,6.75 Z" id="Shape" fill="#009BDA" fill-rule="nonzero"></path>
+        </g>
+        <g id="ic_info_black_24px-copy-3" transform="translate(131.000000, 458.000000)">
+            <polygon id="Shape" points="0 0 18 0 18 18 0 18"></polygon>
+            <path d="M9,1.5 C4.86,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.86,16.5 9,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 9,1.5 Z M9.75,12.75 L8.25,12.75 L8.25,8.25 L9.75,8.25 L9.75,12.75 Z M9.75,6.75 L8.25,6.75 L8.25,5.25 L9.75,5.25 L9.75,6.75 Z" id="Shape" fill="#009BDA" fill-rule="nonzero"></path>
+        </g>
+        <g id="app-bar" transform="translate(8.000000, 69.000000)">
+            <g id="app-bar-bg">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                <use fill="#009BDA" fill-rule="evenodd" xlink:href="#path-6"></use>
+            </g>
+            <g id="tabs">
+                <mask id="mask-9" fill="white">
+                    <use xlink:href="#path-8"></use>
+                </mask>
+                <use id="bounds" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-8"></use>
+                <text id="FAMILY" mask="url(#mask-9)" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="0.5" fill-opacity="0.7" fill="#FFFFFF">
+                    <tspan x="155.449219" y="28">FAMILY</tspan>
+                </text>
+                <text id="INDIVIDUAL" mask="url(#mask-9)" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="0.5" fill="#FFFFFF">
+                    <tspan x="19.9946289" y="28">INDIVIDUAL</tspan>
+                </text>
+                <rect id="indicator" fill="#BDBDBD" mask="url(#mask-9)" x="0" y="46" width="120" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
