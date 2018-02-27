@@ -7,32 +7,10 @@
         <div><p id="menuText">Menu</p></div>
     </div>
     <nav id="mainNav">
-<!--         <ul>
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include pages_list %}
-        </ul> -->
-<!--         <ul>
-            <li><a class="active" href="{{ site.baseurl }}index.html">Portfolio</a></li>
-            <li><a href="{{ site.baseurl }}resume.html">R&eacute;sum&eacute;</a></li>
-            <li class="last"><a href="{{ site.baseurl }}contact.html">Contact</a></li>
-        </ul> -->
         <ul>
-        {% if page.active == "susan evans." %}
-            <li class="active"><a href="{{ site.baseurl }}index.html">Portfolio</a></li>
-        {% else %}
-            <li><a href="{{ site.baseurl }}index.html">Portfolio</a></li>
-        {% endif %}
-        {% if page.active == "R&eacute;sum&eacute;" %}
-            <li class="active"><a href="{{ site.baseurl }}resume.html">R&eacute;sum&eacute;g</a></li>
-        {% else %}
-            <li><a href="{{ site.baseurl }}resume.html">R&eacute;sum&eacute;</a></li>
-        {% endif %}
-        {% if page.active == "Contact" %}
-            <li class="active"><a href="{{ site.baseurl }}contact.html">Contact</a></li>
-        {% else %}
-            <li><a href="{{ site.baseurl }}contact.html">Contact</a></li>
-        {% endif %}
+            <li><a class="{% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl }}index.html">Portfolio</a></li>
+            <li><a class="{% if page.url == '/resume.html' %}active{% endif %}" href="{{ site.baseurl }}resume.html">R&eacute;sum&eacute;</a></li>
+            <li class="last"><a class="{% if page.url == '/contact.html' %}active{% endif %}" href="{{ site.baseurl }}contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
