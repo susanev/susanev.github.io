@@ -1,0 +1,38 @@
+<header class="clearfix">
+    <a class="name" href="{{ site.baseurl }}index.html" aria-label="Home">Susan Evans</a>
+    <div class="hamburger" onclick="toggleNav()" onkeypress="toggleNav()" role="button" tabindex="0">
+        <div id="line1" class="no-rotate"></div>
+        <div id="line2" class="no-rotate"></div>
+        <div id="line3" class="no-rotate"></div>
+        <div><p id="menuText">Menu</p></div>
+    </div>
+    <nav id="mainNav">
+<!--         <ul>
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include pages_list %}
+        </ul> -->
+<!--         <ul>
+            <li><a class="active" href="{{ site.baseurl }}index.html">Portfolio</a></li>
+            <li><a href="{{ site.baseurl }}resume.html">R&eacute;sum&eacute;</a></li>
+            <li class="last"><a href="{{ site.baseurl }}contact.html">Contact</a></li>
+        </ul> -->
+        <ul>
+        {% if page.active == "susan evans." %}
+            <li class="active"><a href="{{ site.baseurl }}index.html">Portfolio</a></li>
+        {% else %}
+            <li><a href="{{ site.baseurl }}index.html">Portfolio</a></li>
+        {% endif %}
+        {% if page.active == "R&eacute;sum&eacute;" %}
+            <li class="active"><a href="{{ site.baseurl }}resume.html">R&eacute;sum&eacute;g</a></li>
+        {% else %}
+            <li><a href="{{ site.baseurl }}resume.html">R&eacute;sum&eacute;</a></li>
+        {% endif %}
+        {% if page.active == "Contact" %}
+            <li class="active"><a href="{{ site.baseurl }}contact.html">Contact</a></li>
+        {% else %}
+            <li><a href="{{ site.baseurl }}contact.html">Contact</a></li>
+        {% endif %}
+        </ul>
+    </nav>
+</header>
