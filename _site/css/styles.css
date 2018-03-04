@@ -416,6 +416,10 @@ svg:hover #github {
     background-image: url('../imgs/project-imgs/health-insurance-viz/main.svg');
 }
 
+.digital-asset-management {
+    background-image: url('../imgs/project-imgs/digital-asset-management/main.svg');
+}
+
 .claim-table-design {
     background-image: url('../imgs/project-imgs/claim-table-design/main.png');
 }

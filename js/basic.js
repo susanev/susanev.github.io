@@ -1,6 +1,12 @@
 var base = "http://www.susanrevans.com"
 
 $(document).ready(function() {
+    $('#digital-asset-management').click(function() {
+        window.location.href= base + '/projects/digital-asset-management.html';
+    });
+    $('#digital-asset-management').keypress(function() {
+        window.location.href= base + '/projects/digital-asset-management.html';
+    });
     $('#health-insurance-viz').click(function() {
         window.location.href= base + '/projects/health-insurance-visualizations.html';
     });
