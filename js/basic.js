@@ -2,10 +2,10 @@ var base = "http://www.susanrevans.com"
 
 $(document).ready(function() {
     $('#digital-asset-management').click(function() {
-        window.location.href= base + '/projects/digital-asset-management.html';
+        window.location.href= base + '/projects/media-library.html';
     });
     $('#digital-asset-management').keypress(function() {
-        window.location.href= base + '/projects/digital-asset-management.html';
+        window.location.href= base + '/projects/media-library.html';
     });
     $('#health-insurance-viz').click(function() {
         window.location.href= base + '/projects/health-insurance-visualizations.html';
