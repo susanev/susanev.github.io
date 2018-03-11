@@ -409,7 +409,7 @@ svg:hover #github {
 }
 
 .conception-tracking {
-    background-image: url('../imgs/project-imgs/conception-tracking/main.png');
+    background-image: url('../imgs/project-imgs/conception-tracking/main.svg');
 }
 
 .health-insurance-viz {
@@ -678,6 +678,7 @@ div.skills {
     max-width: 650px;
     margin-bottom: 30px;
     display: block;
+    width: 100%;
 }
 
 .healthviz .project-page img {
