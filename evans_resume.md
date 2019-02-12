@@ -2,7 +2,6 @@
 _UX Designer and Developer_
 
 ## Contact Information
-* susanev.com
 * hello@susanev.com
 * (206) 395-8146
 
