@@ -34,10 +34,16 @@ I have a diverse background in UX design and code and am passionate about improv
 ## Work Experience
 ### UX Designer II at Chef Software
 _May 2018 – Present_
-* Lead UX designer and product owner on Authorization and Authentication team.
-* Led design of a new version of identity and access management which included role-based access, and project-scoped access all.
-* Advocate and drive accessibility improvements across products and internally.
-* Collaborate closely with engineers by crafting stories and tasks, providing accessibility implementation support, and code reviews.
+* Lead designer and product owner for the Authorization and Authentication team.
+* Leading design of a new version of identity and access management which included role-based access, and project-scoped access all.
+* Lead designer on Chef Workstation an adhoc tool to configure servers directly over SSH or WinRM.
+* Conduct user surveys and interviews and participate in regular customer meetings to develop strong empathy for user pain points
+* Rapidly prototype wire frames to guide feedback sessions with stakeholders and users.
+* Create accessible designs for the user interface, command line interface, and documentation across products.
+* Collaborate closely with product managers to align with measurable business goals and requirements.
+* Collaborate closely with engineers, providing accessibility implementation guidance and code reviews.
+* Maintain and build both design documentation and design library artifacts.
+* Build strong relationships across Product, Engineering, and Customer Support as a means to drive further support and advocacy for an improved accessible user experience.
 
 ### UX Designer II at Microsoft
 _September 2017 – April 2018_
@@ -55,7 +61,7 @@ _Janurary 2017 – April 2017_
 * Led research-informed design on an agile team focused on the member web experience.
 * Led multiple improvement projects to the member's dashboard, and claims and payments.
 * Implemented front-end code for a major redesign.
-* Led introduction to web accessibility sessions.
+* Led numerous web accessibility learning sessions.
 
 ### UX Designer at University of Washington
 _February 2014 – March 2016_
