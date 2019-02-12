@@ -35,15 +35,15 @@ I have a diverse background in UX design and code and am passionate about improv
 ### UX Designer II at Chef Software
 _May 2018 – Present_
 * Lead designer and product owner for the Authorization and Authentication team.
-* Leading design of a new version of identity and access management which included role-based access, and project-scoped access all.
-* Lead designer on Chef Workstation an adhoc tool to configure servers directly over SSH or WinRM.
-* Conduct user surveys and interviews and participate in regular customer meetings to develop strong empathy for user pain points.
-* Rapidly prototype wire frames to guide feedback sessions with stakeholders and users.
+* Currently, leading design of a new version of identity and access management which includes role-based access, and project-scoped access all.
+* Lead designer on Chef Workstation an ad-hoc tool to configure servers directly over SSH or WinRM.
+* Conduct user surveys and interviews and participate in regular customer meetings to develop strong empathy for users.
+* Rapidly prototype wireframes to guide feedback sessions with stakeholders and users.
 * Create accessible designs for the user interface, command line interface, and documentation across products.
 * Collaborate closely with product managers to align with measurable business goals and requirements.
 * Collaborate closely with engineers, providing accessibility implementation guidance and code reviews.
 * Maintain and build both design documentation and design library artifacts.
-* Build strong relationships across Product, Engineering, and Customer Support as a means to drive further support and advocacy for an improved accessible user experience.
+* Build strong relationships across Product, Engineering, and Customer Support as a means to drive further support and advocacy for improved accessible user experiences.
 
 ### UX Designer II at Microsoft
 _September 2017 – April 2018_
