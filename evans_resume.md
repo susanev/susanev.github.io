@@ -24,6 +24,13 @@ I have a diverse background in UX design and code and am passionate about improv
 * Java
 * Python
 
+### Design Software
+* Sketch and Abstract
+* Adobe Illustrator, Xd, InDesign, and Photoshop
+* Zeplin
+* Framer X
+* Axure RP
+
 ## Work Experience
 ### UX Designer II at Chef Software
 _May 2018 – Present_
