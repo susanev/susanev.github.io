@@ -59,7 +59,7 @@ _February 2014 – March 2016_
 _March 2016 – June 2017_
 * Designed and taught undergrad and grad programming courses using Java, Processing, p5.js, HTML/CSS, and Git.
 
-## Computer Science Educator
+### Computer Science Educator
 _August 2004 – September 2015_
 * Before transitioning into a career in UX design I contributed extensively to the computer science education space, across many levels including K – 12, college, and community-based programs.
 
