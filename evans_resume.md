@@ -37,7 +37,7 @@ _May 2018 – Present_
 * Lead designer and product owner for the Authorization and Authentication team.
 * Leading design of a new version of identity and access management which included role-based access, and project-scoped access all.
 * Lead designer on Chef Workstation an adhoc tool to configure servers directly over SSH or WinRM.
-* Conduct user surveys and interviews and participate in regular customer meetings to develop strong empathy for user pain points
+* Conduct user surveys and interviews and participate in regular customer meetings to develop strong empathy for user pain points.
 * Rapidly prototype wire frames to guide feedback sessions with stakeholders and users.
 * Create accessible designs for the user interface, command line interface, and documentation across products.
 * Collaborate closely with product managers to align with measurable business goals and requirements.
